@@ -1,0 +1,14 @@
+{
+  "package": "seraph_task1_v7_3_0",
+  "purpose": "Task1 first engineering integration, offline five steps + optional SSQ-only ablation",
+  "source_schema_package": "blocksem_downstream_readiness_v7_2_2.zip",
+  "source_archive_sha256": "d988ae7ad83f42698906f7277bae42ea759399964259ffa41c2b52c17925a907",
+  "reused_utility": "bridge/common.py copied then supplemented with Task1 strict JSON/path/lock helpers",
+  "required_previous_dir": "downstream_readiness_v7_2_1/all_scopefix",
+  "new_base_dir": "seraph_task1_v7_3_0",
+  "original_packages_modified": false,
+  "original_inference_modified": false,
+  "stage2_gated_fusion": "NOT_IMPLEMENTED",
+  "stage3_calibrated_LLM_closed_loop": "NOT_IMPLEMENTED",
+  "prototype_scope": "Function-indexed query candidates + pseudocode anchors + SSQ + explicit HTTP client + same-scope posthoc diagnostic"
+}

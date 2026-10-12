@@ -1,0 +1,27 @@
+{
+  "release": "2026-10-12-v038",
+  "source_integrity": "PASSED",
+  "python_syntax": "PASSED",
+  "source_file_count": 263,
+  "compatibility_alias_count": 20,
+  "credential_pattern_scan": "NO_MATCHES",
+  "targeted_unit_tests": {
+    "passed": 23,
+    "failed": 0,
+    "groups": {
+      "binding_store_v6_4": 7,
+      "semantic_joint_selection_v2": 2,
+      "confirmation_fail_closed_v6_7": 1,
+      "evidence_objective_v2": 7,
+      "schema_security_v6_5": 6
+    }
+  },
+  "training_rerun": false,
+  "vulnerability_experiment_rerun": false,
+  "full_end_to_end_validation": false,
+  "v038_report_status": "EXPANDED_LOCALIZATION_VALIDATION_COMPLETE",
+  "v038_caveat": "NO_INDEPENDENT_SERAPH_VERIFICATION_GAIN; completion is not validation of the locator",
+  "cleanup_status": "PENDING_SOURCE_RECHECK_AND_PUBLICATION",
+  "algorithm_files_modified": false
+  ,"document_visual_qa": {"pages": 25, "all_pages_inspected": true, "status": "PASSED"}
+}

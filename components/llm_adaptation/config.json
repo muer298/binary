@@ -1,0 +1,40 @@
+{
+  "schema": "seraph_stage1_clean_v0_1_5",
+  "package_root": "/data/chaoni/mjy/resym_exp/packages/seraph_stage1_clean_v0_1_5",
+  "output_root": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/stage1_clean_v0_1_5",
+  "model_dir": "/data/chaoni/mjy/DeepSeek-Coder-6.7B-Base",
+  "old_stage1_pairs": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/first_batch_v0_1_3/pairs.jsonl",
+  "old_stage1_adapter": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/first_batch_v0_1_3/contrastive/adapter",
+  "global_split_contract": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/global_split_contract.json",
+  "global_manifest": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/joint_manifest_global_clean_v0_2_7.jsonl",
+  "global_identity_inventory": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/global_identity_inventory.jsonl",
+  "v032_model_manifest": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/stage2_final_v0_3_2/STAGE2_FINAL_MODEL_MANIFEST.json",
+  "v029_checkpoint_manifest": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_joint_v0_2_9/CHECKPOINT_MANIFEST.json",
+  "expected_global_manifest_sha256": "769b0ae6d75a484f5071a96eec5279edf90c58eb033bff12ad91a79571b211b0",
+  "expected_clean_hsym_sha256": "8345cc76a9219252c5fa22e172c71a19dc046ba7ac793598d87b4a83db7f1e2d",
+  "stage1_inner_split": {
+    "train_project": "TLINDEN/udpxd",
+    "inner_dev_project": "cavazos-lab/PolyBench-ACC",
+    "expected_pairs": {"train": 29, "val": 11},
+    "expected_unique_source_functions": 40
+  },
+  "seed": 20260928,
+  "pair_minimum": 40,
+  "contrastive": {
+    "max_length": 512,
+    "batch_size": 2,
+    "epochs": 2,
+    "learning_rate": 0.00005,
+    "projection_dim": 256,
+    "temperature": 0.07,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_target_modules": ["q_proj", "k_proj", "v_proj", "o_proj"],
+    "checkpoint_selection": "max_bidirectional_inner_dev_MRR_then_earliest_epoch"
+  },
+  "outer_dev_opened_during_training": 0,
+  "calibration_opened_during_training": 0,
+  "compromised_test_v1_opened_during_training": 0,
+  "final_test_v2_opened_during_training": 0
+}

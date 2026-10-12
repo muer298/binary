@@ -1,0 +1,2253 @@
+{
+  "release": "2026-10-12-v038",
+  "server_destination": "/data/chaoni/mjy/binary",
+  "data_root": "/data/chaoni/mjy/resym_exp",
+  "algorithm_changes": false,
+  "components": [
+    {
+      "name": "research_pipeline",
+      "legacy_package": "blocksem_subset100_v7_1_0",
+      "chapter": "2.1 2.2",
+      "status": "主线",
+      "files": 126
+    },
+    {
+      "name": "usg_compat",
+      "legacy_package": "research2_symgen_external_validation_final_v1",
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖",
+      "files": 16
+    },
+    {
+      "name": "semantic_export",
+      "legacy_package": "seraph_task1_v7_3_0",
+      "chapter": "2.3.1",
+      "status": "必要数据接口",
+      "files": 17
+    },
+    {
+      "name": "llm_adaptation",
+      "legacy_package": "seraph_stage1_clean_v0_1_5",
+      "chapter": "2.3.1",
+      "status": "主线",
+      "files": 8
+    },
+    {
+      "name": "symbolic_encoder",
+      "legacy_package": "seraph_clean_hsym_v0_2_8",
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线",
+      "files": 11
+    },
+    {
+      "name": "semantic_joint",
+      "legacy_package": "seraph_clean_joint_v0_2_10",
+      "chapter": "2.3.1",
+      "status": "主线",
+      "files": 15
+    },
+    {
+      "name": "semantic_evaluation",
+      "legacy_package": "seraph_final_test_v2",
+      "chapter": "2.3.1",
+      "status": "主线",
+      "files": 2
+    },
+    {
+      "name": "semantic_freeze",
+      "legacy_package": "seraph_final_freeze_v0_3_3b",
+      "chapter": "2.3.1",
+      "status": "主线",
+      "files": 1
+    },
+    {
+      "name": "test_data",
+      "legacy_package": "seraph_final_test_v2_build",
+      "chapter": "2.3.1",
+      "status": "必要数据接口",
+      "files": 10
+    },
+    {
+      "name": "data_split",
+      "legacy_package": "seraph_local_joint_v0_2_7_global_split",
+      "chapter": "2.3.1",
+      "status": "必要数据接口",
+      "files": 5
+    },
+    {
+      "name": "instruction_mapping",
+      "legacy_package": "seraph_local_joint_v0_2_2_mapping",
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖",
+      "files": 10
+    },
+    {
+      "name": "gold_mapping",
+      "legacy_package": "seraph_ssq_layout_dev_supplement_v0_3_1a",
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖",
+      "files": 1
+    },
+    {
+      "name": "ssq_transport",
+      "legacy_package": "seraph_external_ssq_v0_4_0b_api_smoke_repair",
+      "chapter": "2.3.1",
+      "status": "可选审计依赖",
+      "files": 1
+    },
+    {
+      "name": "ssq_design",
+      "legacy_package": "seraph_external_ssq_v0_4_0c_design",
+      "chapter": "2.3.1",
+      "status": "可选审计依赖",
+      "files": 4
+    },
+    {
+      "name": "ssq_audit",
+      "legacy_package": "seraph_external_ssq_v0_4_0e_order_audit",
+      "chapter": "2.3.1",
+      "status": "可选审计默认关闭",
+      "files": 4
+    },
+    {
+      "name": "security_semantics",
+      "legacy_package": "seraph_task2_vuln_v0_2_10",
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链",
+      "files": 11
+    },
+    {
+      "name": "vulnerability",
+      "legacy_package": "seraph_task2_vuln_v0_3_8",
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成",
+      "files": 12
+    },
+    {
+      "name": "localization_evaluation",
+      "legacy_package": "seraph_task2_localization_eval_v0_1",
+      "chapter": "2.3.2",
+      "status": "独立定位评测",
+      "files": 2
+    },
+    {
+      "name": "data_tools",
+      "legacy_package": null,
+      "chapter": "2.1 2.3.1",
+      "status": "共享数据与评测工具",
+      "files": 6
+    }
+  ],
+  "files": [
+    {
+      "path": "components/research_pipeline/BUILD_STATUS.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/BUILD_STATUS.json",
+      "sha256": "557151ce0406b19722d4dd04eeec12d8f53978211ac0303a0a6788235d21a0b5",
+      "bytes": 2009,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/SOURCE_PROVENANCE.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/SOURCE_PROVENANCE.json",
+      "sha256": "8bac8ed0d1b1554dd9a56cab85cb21b9dc0be8f3898ad4d96f39d35784c449f5",
+      "bytes": 805,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/control.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/control.py",
+      "sha256": "decc2edea93f3cbacc389396eb7faf0c15ac07790c476b894f4aaf33715577f5",
+      "bytes": 21136,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/helpers/06_features.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/helpers/06_features.sh",
+      "sha256": "8fa6b738460d5734aca078fc3ff0fe9e64a82dd3f7bb10a677dfbea572c8255a",
+      "bytes": 5529,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/helpers/audit_api_provenance_nodes.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/helpers/audit_api_provenance_nodes.py",
+      "sha256": "dd31210a35d113bf4b05c32ffd354f0b33f6d5465fa02bf84a30b8212d72876a",
+      "bytes": 2036,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/helpers/verify_feature_contract_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/helpers/verify_feature_contract_v1.py",
+      "sha256": "7ab9adb2688a67e43589f644c1edc4153a1cdd3dd4612428fa7c8c086c992cf4",
+      "bytes": 1704,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/monitor.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/monitor.sh",
+      "sha256": "588ed5864921b1174b5e0283ff23be2fa12c57e72b7e678440114a430c94e68d",
+      "bytes": 1073,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/pipeline.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/pipeline.py",
+      "sha256": "fa335c5e1a1859214dbe5604776586ffbd8466acb780ba2f62f75fb40a93cd15",
+      "bytes": 26280,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/start.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/start.sh",
+      "sha256": "0d0c2342c1e9f511bce4a02fb0eee77a66135613d5c5c7e9cbd92d01066d99c6",
+      "bytes": 1312,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/tests/test_clean_package.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/tests/test_clean_package.py",
+      "sha256": "699e2d454acaf3457c1bdde162f44f85a4f938ccd8b81da6225cfdf7c6eca321",
+      "bytes": 3191,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/00_inspect_api_provenance_v5_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/00_inspect_api_provenance_v5_3.py",
+      "sha256": "fb47d5fa9c8408171c46bcd9166c2b1e0b01c7b3a0c65dce9d8a9389d42e2634",
+      "bytes": 2920,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/01_build_usg_index.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/01_build_usg_index.py",
+      "sha256": "76d801835dc98040756c0d7f7af1fb6ec421ccee39328a4f52f6d9679908590c",
+      "bytes": 4099,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/02_extract_nodes_edges.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/02_extract_nodes_edges.py",
+      "sha256": "ed5e948b202d20274ae70a5ecc84c060f945816b33824771cd6573044a2813e5",
+      "bytes": 44979,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/04_build_anchors.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/04_build_anchors.py",
+      "sha256": "be391ff56514d94d4dac178a5331b27e8882c100211bbbe46266d51d1aa839a3",
+      "bytes": 6323,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/05_sample_anchor_neighborhoods.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/05_sample_anchor_neighborhoods.py",
+      "sha256": "74cdd3ef0acaa925f0a66d21e8cff10aac9d8d970f4d0a5b8eb8cf0ea71a9844",
+      "bytes": 10469,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/05b_add_api_callctx_neighborhoods.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/05b_add_api_callctx_neighborhoods.py",
+      "sha256": "39fd3ade180440a641f7ba520833607624336ade28bf15013fd865ec033611ef",
+      "bytes": 5973,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/05c_add_api_paramflow_neighborhoods.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/05c_add_api_paramflow_neighborhoods.py",
+      "sha256": "3b526579366e7907879e8dc3e2f7daca85334d8a13b22fb16cf4aa91f37bfc2b",
+      "bytes": 20061,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/05e_repair_api_direct_only.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/05e_repair_api_direct_only.py",
+      "sha256": "3315b52144f296ee1a784339338058570beb82b00facebcc6992f867a28040e9",
+      "bytes": 6740,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/06_featurize_objects_hier.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/06_featurize_objects_hier.py",
+      "sha256": "aa616b370d3e9a14e5db367cc374f91e58f70b4ae12f92870f0e3b16d89b75aa",
+      "bytes": 32858,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/07_train_alignment_stage5_full.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/07_train_alignment_stage5_full.py",
+      "sha256": "cf09a9eb4e9f08c0b6db7ac60010db58578092285bc400d931771e36e6330874",
+      "bytes": 59730,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/08_audit_evidence_groups.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/08_audit_evidence_groups.py",
+      "sha256": "2d04baceb38997d36f4fd50b682ab69aed38beca452a6847db5b193da95af427",
+      "bytes": 5472,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/08_generate_hypotheses_v5_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/08_generate_hypotheses_v5_3.py",
+      "sha256": "3c582016538b4087dddb37da69008e7c263e4d620328bfa2334dc727cf885178",
+      "bytes": 31411,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/08_sample_anchors_balanced.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/08_sample_anchors_balanced.py",
+      "sha256": "7c9ccf94d824d2edb2d597a727f3feb86d7a5949f53517c8952ea232f1d7992d",
+      "bytes": 2255,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/09_sample_anchors_api_filtered.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/09_sample_anchors_api_filtered.py",
+      "sha256": "f539ea227e695a63de3300d8c0f9bf0c27353a242fedb930c60c5abde870ddc0",
+      "bytes": 3920,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/09_validate_evidence_v5_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/09_validate_evidence_v5_3.py",
+      "sha256": "a093af926f6e8fef882948f9d7132274eef88ed75380e9b7e63782a0978096e1",
+      "bytes": 24351,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/09_verify_stage3_split_isolation_v6_2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/09_verify_stage3_split_isolation_v6_2.py",
+      "sha256": "e34f627f2391c78d6094e8fc1a2bcbeed267f54a26a8a470223f1abf62b6d4c2",
+      "bytes": 4807,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/09b_check_hard_seed_readiness_v5_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/09b_check_hard_seed_readiness_v5_3.py",
+      "sha256": "b98e2c5672f20b005fa2a00f75870da1d90664608f00e879202ff2ae8d6d98f7",
+      "bytes": 1956,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/10_export_node_embeddings_v6_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/10_export_node_embeddings_v6_3.py",
+      "sha256": "9b0955ebeb7ffba1c0b0b958e0520410cbc7db3dfe1cb5fd95c822c6e2209f8f",
+      "bytes": 40644,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/10_iterative_reasoning_v5_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/10_iterative_reasoning_v5_6.py",
+      "sha256": "86c31c8d2d44f7388da86d1ee0eadf41df5239161cb46a5a83f3dcebe3acd2f0",
+      "bytes": 87179,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/10_select_neighborhood_nodes.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/10_select_neighborhood_nodes.py",
+      "sha256": "e2bc0b4e6b972bc4044d450ac58154d782fdf6d8d726acca11278d80905f653f",
+      "bytes": 1500,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/11_enrich_nodes_api_aware.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/11_enrich_nodes_api_aware.py",
+      "sha256": "197dda307e3febefd375fbbcbd54c7d7648e1750eb1bbabd1938d79f84ca663a",
+      "bytes": 4345,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/11_evaluate_reasoning_v5_5.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/11_evaluate_reasoning_v5_5.py",
+      "sha256": "c1e7d3d86dc990a55391e1bd83e8d2add0a0d6bcd84f70e603d40c8eb245fb6a",
+      "bytes": 21426,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/11_verify_node_embedding_export_v6_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/11_verify_node_embedding_export_v6_3.py",
+      "sha256": "b36a08cfa77002fb7eb1132bebdfc50e9aee739a9c16be31cb5be6b06b3ba8e1",
+      "bytes": 10593,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/12_build_embedding_binding_records.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/12_build_embedding_binding_records.py",
+      "sha256": "e213ba811620436109b5b82d9f8dcd0d5a82e7334a108350ae57602d31c1d4a1",
+      "bytes": 24989,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/12_export_for_223_v5_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/12_export_for_223_v5_3.py",
+      "sha256": "24fdf71878f4012c9f89b31233da3c24b0530297675b4712dd87d6cd88a68177",
+      "bytes": 2423,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/13_append_binding_events_v6_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/13_append_binding_events_v6_4.py",
+      "sha256": "d181a0c50d49599ed9b136dd2dbe28090d60283e8a9f704c420dc80bf7d0f203",
+      "bytes": 6066,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/13_resolve_hierarchical_constraints.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/13_resolve_hierarchical_constraints.py",
+      "sha256": "2af67e0e7a51e3c654a744f6085b317b942ee6bb8d8a26072d3ee86639643ee3",
+      "bytes": 29686,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/13_verify_222_v5_6_run.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/13_verify_222_v5_6_run.py",
+      "sha256": "3d51de5469a2e6ba367d5375174eca7391a679dd55ce209f4bb378efcc5c3b41",
+      "bytes": 16486,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/14_block_direct_semantic_writeback_v6_5.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/14_block_direct_semantic_writeback_v6_5.py",
+      "sha256": "181023628a50cf7324c6c14c8f84a10288374a9ea111be24b974612958fd9e2a",
+      "bytes": 1053,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/14_calibrate_confirmation_policy_v5_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/14_calibrate_confirmation_policy_v5_4.py",
+      "sha256": "6886c17cea8193bb31b20a710ccb1a88f17122e42e124f9e5341027a6545784d",
+      "bytes": 13995,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/14_trace_binding_store_v6_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/14_trace_binding_store_v6_4.py",
+      "sha256": "beabe37895ee79eca00f646af83299a7ae083a460610eddfeea0ddf6f62d386d",
+      "bytes": 3838,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/15_audit_confirmation_coverage_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/15_audit_confirmation_coverage_v6_6.py",
+      "sha256": "91746bae29a0b308052ce706323d82e8f1b9eefbce1dbd5cc449d3952438ccde",
+      "bytes": 8340,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/15_make_frozen_split_v5_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/15_make_frozen_split_v5_4.py",
+      "sha256": "d560403deb421f85831dbc3b3278b1e656ba821ed42a1a3cefeb8349f6173713",
+      "bytes": 6294,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/15_verify_binding_store_v6_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/15_verify_binding_store_v6_4.py",
+      "sha256": "5c679491f463f9bcec6199310b6a29f7eaca8200564ddca03d4dd4c10e9a8a79",
+      "bytes": 15139,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/15_verify_conflict_resolution_v6_5.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/15_verify_conflict_resolution_v6_5.py",
+      "sha256": "0d441703a35843ee06f87cb19e5a6c96c3298f60f980baca251bc54336eb7881",
+      "bytes": 9552,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/17_audit_usg_gold_v5_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/17_audit_usg_gold_v5_4.py",
+      "sha256": "cb1cbf4ede540c0d0beccc6dcf335cefda8fea081765cee4943adc4dd5bb9fd9",
+      "bytes": 4932,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/17_verify_resolved_representation_chain_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/17_verify_resolved_representation_chain_v6_6.py",
+      "sha256": "0555a1f5da21d58ffbec4328639b52414015a78529fe6df0f4cae5aea63c8d25",
+      "bytes": 4707,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/18_split_gold_jsonl_v5_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/18_split_gold_jsonl_v5_4.py",
+      "sha256": "49f20d88519beb29c07a269c1d98480dfc1b3e6e8fc9aa49523cebc2d2917a25",
+      "bytes": 1876,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/18_train_specialised_module_heads_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/18_train_specialised_module_heads_v6_6.py",
+      "sha256": "d614c61d1bed9f264c4aef1f72c1a114b798c2909f10ce2f259c8f6154461422",
+      "bytes": 11140,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/19_compare_222_evaluations_v5_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/19_compare_222_evaluations_v5_4.py",
+      "sha256": "3adda5c52e1206665031bf75d4484a2045cc794533d4316c766390ce332e3a2b",
+      "bytes": 6710,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/19_run_four_module_inference_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/19_run_four_module_inference_v6_6.py",
+      "sha256": "d64e0228b5946da783c5b27279976ac07c80bce5e7910a109d628be9d570c39a",
+      "bytes": 7328,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/19_verify_gold_readiness_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/19_verify_gold_readiness_v6_6.py",
+      "sha256": "ce603517a0414c00ebf78cba55875a62ccb2f2f94516ac913c771e6b0702682a",
+      "bytes": 8275,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/20_iterative_module_collaboration_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/20_iterative_module_collaboration_v6_6.py",
+      "sha256": "250fff3d2b74d6f2a3e917bcea2175f90bb27bef53c9f7b4d12b3fc3f5e8fd67",
+      "bytes": 31382,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/20_validate_gold_split_contract_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/20_validate_gold_split_contract_v6_6.py",
+      "sha256": "1492b2dc2a9fef63d698d005400a58d0f4ffe561b7af6df7759333301ac1b08b",
+      "bytes": 3761,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/21_evaluate_223_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/21_evaluate_223_v6_6.py",
+      "sha256": "cd01c3b21c757a5380eda060897232c7b3492d24eb8d1678d8bcac75c3de29a8",
+      "bytes": 31897,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/22_verify_223_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/22_verify_223_v6_6.py",
+      "sha256": "78719b6ddb2642a5fea8b7e52a83d41a67ea566ca2f71ffcaf820cf7a86094d9",
+      "bytes": 10776,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/23_summarize_223_ablations_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/23_summarize_223_ablations_v6_6.py",
+      "sha256": "bea21e7e6dcb67e1878accd4292422a912a54f5b7730cc36ab8b67463c851132",
+      "bytes": 6430,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/24_calibrate_layout_reranker_v6_7_2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/24_calibrate_layout_reranker_v6_7_2.py",
+      "sha256": "0a6c8464a32ed103bb16889b969cd8650834729ae175e06e3e95bf86c1d30ecf",
+      "bytes": 11303,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/25_verify_layout_rerank_v6_7_2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/25_verify_layout_rerank_v6_7_2.py",
+      "sha256": "32a50d2f4fefad3bf3e76d2a3ff2c6d5f48c747876e14bbc0813617ae546f058",
+      "bytes": 7174,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/26_enrich_layout_evidence_v6_7_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/26_enrich_layout_evidence_v6_7_4.py",
+      "sha256": "45018230373f23aae9ef4cbee3de3eb1fd901d50728a9886f06e4f5aecbd7393",
+      "bytes": 31182,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/api_infer_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/api_infer_v6_6.py",
+      "sha256": "95354665158922055ac2d15db5903d8d2502ed5b5674f5f92c146a628d04cd38",
+      "bytes": 838,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/binding_store_v6_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/binding_store_v6_4.py",
+      "sha256": "04c4f94c9fb289ce7b1f6cf8486cafc99c24a663216795cddf0d0fd1e9484555",
+      "bytes": 44603,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/build_manifest_with_full.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/build_manifest_with_full.py",
+      "sha256": "ea70313e8c4c3bc1e4518e0e353aa119508eb7ab82e9870db90057b761e906c3",
+      "bytes": 1800,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/conflict_resolver_v6_5.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/conflict_resolver_v6_5.py",
+      "sha256": "164aabf7bba86159fc0456fd7a208248f7080e2e88feaccd102837d0a752cfd9",
+      "bytes": 67807,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/evidence_objective_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/evidence_objective_v2.py",
+      "sha256": "6ac4ff36eaa6cf4aebb310f3d3b6dd34577da293cfeb3723cb8553cfe20fb1dd",
+      "bytes": 25857,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/inspect_semantic_json.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/inspect_semantic_json.py",
+      "sha256": "b469bf64c4fb7c2805938c2dc19b0210b6444912fb9cf34371575e81bcf2cf69",
+      "bytes": 2610,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/interface_infer_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/interface_infer_v6_6.py",
+      "sha256": "3397f7c7f49876ee36c8e8c47745c00ecd9e26068002d21cbd5764204c36545c",
+      "bytes": 831,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/layout_infer_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/layout_infer_v6_6.py",
+      "sha256": "d4993bcd5783a6c4931cdf66ee6228e05e45737f8326cd5b62b533b5fbb18a06",
+      "bytes": 765,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/layout_reranker_v6_7_2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/layout_reranker_v6_7_2.py",
+      "sha256": "6fbecf60ae4f8e4cd0831f8898b4b58bc3fad3dc98fd47531b0b4813aa12133c",
+      "bytes": 26683,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/module_common_223_v5_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/module_common_223_v5_3.py",
+      "sha256": "e33847d4737fff718095b016e22572036d76b8a812f1060194d3bfcc31154d3b",
+      "bytes": 14914,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/module_common_v5_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/module_common_v5_3.py",
+      "sha256": "56ae2088bb6be12cbd7dd9d6188924ed06d79230f2f5c558f13d11a4ad2c5267",
+      "bytes": 36731,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/module_specialized_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/module_specialized_v6_6.py",
+      "sha256": "f8cb6908bb26c5868151e7f654355fcc6da485e9b3146b63d38044d21c4a25b7",
+      "bytes": 14548,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/over_v11_typesem_plus_paramflow.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/over_v11_typesem_plus_paramflow.py",
+      "sha256": "930be08821a50d14517842de8e574222ce1e9734672fa7b2809496d5bd41abc3",
+      "bytes": 407693,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/run_221_binding.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/run_221_binding.sh",
+      "sha256": "ee81686258fb310d26f94429418f905feb91cdd1f34d8d15607a4e88556313d4",
+      "bytes": 2995,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/run_221_conflict.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/run_221_conflict.sh",
+      "sha256": "c4562eb91d39bfd0547a0f3e78c1261b63ffc7426d5e2ac87199b444c4abb4e6",
+      "bytes": 2395,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/run_221_prepare.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/run_221_prepare.sh",
+      "sha256": "d42b0df3467a347b4b1be478c0ff36a88ab12ba5b04e05235fcb8b66b0855ca1",
+      "bytes": 6165,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/run_221_train.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/run_221_train.sh",
+      "sha256": "319e1df4091adcb7d39322966198e5fb71a9ad3ad1c67a34ce44ebc5a06206c7",
+      "bytes": 4489,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/run_222_v5_6.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/run_222_v5_6.sh",
+      "sha256": "4eeb7acaf3c0508f9b3ec3b4a95712889e9943a43a1d445f47f2cc1b1bc87cfc",
+      "bytes": 10430,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/run_223_ablation_suite_v6_6.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/run_223_ablation_suite_v6_6.sh",
+      "sha256": "9fb65f58b50944a1a7a4f7144f59872c99e5f80262b0fef034b51d79f0754a4d",
+      "bytes": 7675,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/run_223_v6_6.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/run_223_v6_6.sh",
+      "sha256": "12607f829bdc94d74d0b441ec007652ea9ad31dae1bd83e376f5ade2042a111a",
+      "bytes": 7893,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/run_layout_evidence_enrichment.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/run_layout_evidence_enrichment.sh",
+      "sha256": "6b46d32af55e5993ac741a7d8fbd363a27ca96ec7ddc2e24cf45d15f2bb26893",
+      "bytes": 1303,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/run_static_checks.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/run_static_checks.sh",
+      "sha256": "aebdee4fcaf515254a28d2ee12187681ff23fd103e077823129979d046228b61",
+      "bytes": 1676,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/run_usg_headless_stream_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/run_usg_headless_stream_v2.py",
+      "sha256": "223294d711bfc6830d12f83c064f690d5ac15680f07b17748ead0a52e58666fd",
+      "bytes": 11747,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/split_isolation_v3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/split_isolation_v3.py",
+      "sha256": "fd45ef2ff9af00fca4f24778724242ec331b9f01420f07c69cd06f3a80ef211f",
+      "bytes": 15355,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/summarize_usg_outputs_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/summarize_usg_outputs_v2.py",
+      "sha256": "9c3b048c0033a4dabd251e7e6c1c6f93808faedcec016b5c6f1179840ca12889",
+      "bytes": 5939,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_222_symbolic_integration.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_222_symbolic_integration.py",
+      "sha256": "e9a988dab101c67ac03643ae64a8bfc4b729005dd544d34da1a78cf289ae01bd",
+      "bytes": 7306,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_223_ablation_integration.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_223_ablation_integration.py",
+      "sha256": "cd31ba5eae3f6ea4cdd94d541285998fc253b0cf3d6721c7f72e264d71acccf2",
+      "bytes": 8619,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_223_specialised_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_223_specialised_v6_6.py",
+      "sha256": "c06fb3b0c0795318ab0101be6a8e09e650ec559a95ff894b2501daaad0d929fe",
+      "bytes": 3862,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_binding_store_v6_4.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_binding_store_v6_4.py",
+      "sha256": "be5facd2c045e886a7d3cc2bb8e6fdec930d4f836746b7fbc3b8e6b48827238d",
+      "bytes": 14506,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_confirmation_fail_closed_v6_7.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_confirmation_fail_closed_v6_7.py",
+      "sha256": "b573fd2890dad38a112a7af5e849b794b95511b21bc9e3cc943fad14d681a735",
+      "bytes": 4087,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_controlled_missing_source.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_controlled_missing_source.py",
+      "sha256": "96122996180032724e25f9bfe794279c77a84ea36f0226562e74f5404d9b424a",
+      "bytes": 11991,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_evidence_objective_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_evidence_objective_v2.py",
+      "sha256": "062012d8f4579ff24e27611fe3156c986250e5a786ea9543b09f6b1afcbd6f9c",
+      "bytes": 6895,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_gold_and_confirmation_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_gold_and_confirmation_v6_6.py",
+      "sha256": "5dfc8c94d9ea1a478a1df7f03007127697c7514cc8666016c4c93279d487f37c",
+      "bytes": 5381,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_layout_calibration_v6_7_2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_layout_calibration_v6_7_2.py",
+      "sha256": "d3822cd62f91ad6fd4117831073fd2adbe804e8e7fdf430b478b7d458cb41cd2",
+      "bytes": 4232,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_layout_module_integration_v6_7_2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_layout_module_integration_v6_7_2.py",
+      "sha256": "3d093e00bf71807db52e82e31ae03bd33b6a4463637d1b3d3197e4d7112705fc",
+      "bytes": 2918,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_layout_nested_evidence_bridge_v6_7_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_layout_nested_evidence_bridge_v6_7_3.py",
+      "sha256": "6952db6b4c5879ebeed1b687b033c884a01b7d919b1e3c7d58dfdab1eb13cac5",
+      "bytes": 2516,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_layout_promotion_gate_v6_7_2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_layout_promotion_gate_v6_7_2.py",
+      "sha256": "2f506f78f0361576a709a13af63148ac45015cc039d74a67040f8c296f5a6380",
+      "bytes": 3499,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_layout_reranker_v6_7_2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_layout_reranker_v6_7_2.py",
+      "sha256": "63ed68b0c64e262c42a0929e26b0c5fd0983891997903db40cdbc7a7737a7166",
+      "bytes": 2374,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_minimum_six_v6_5.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_minimum_six_v6_5.py",
+      "sha256": "5c4fa82b17cde2be7e85bc8554c18f6aa39d6ba7d1a3a75b7cd1c2f02c5d29d7",
+      "bytes": 12633,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_node_embedding_export_v6_3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_node_embedding_export_v6_3.py",
+      "sha256": "9c73dadd2ae043b1de6698a70eaf7e5ebe59dccbdff67fabb454a70e6d295659",
+      "bytes": 6767,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_policy_handoff.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_policy_handoff.py",
+      "sha256": "8ab9d0ac1fbee82af3a1d892341e7c2b3e07b1c17298a17e50829dc44d7177a2",
+      "bytes": 1888,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_schema_security_v6_5.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_schema_security_v6_5.py",
+      "sha256": "e7cd42112bd5cfacf189aed26b13b9c6e3148b102fb02f8c48fae6be68f7a1c6",
+      "bytes": 6246,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_stage3_split_isolation_v6_2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_stage3_split_isolation_v6_2.py",
+      "sha256": "c023ee93b04fa300db01d7fda6646ed1b5fc8c8ef853a10cc9a50dbdd8027f21",
+      "bytes": 5547,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_stage5_unified_v6_5.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_stage5_unified_v6_5.py",
+      "sha256": "37b1e0939535ea60d771e8d2fc6b3718920ae0637a6c03691ac85a1ed6587d9b",
+      "bytes": 6138,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_v5_6_document_contract.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_v5_6_document_contract.py",
+      "sha256": "cab98b82dae549faf257c83bee59b84c93f0bff40f1b2d56e774696b0a658fda",
+      "bytes": 3199,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/tests/test_validation_guard_v6_7.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/tests/test_validation_guard_v6_7.py",
+      "sha256": "70f2c6ce485215166d376481088f300098ab4a55e547c61628b1c9682724454b",
+      "bytes": 11248,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/pipeline/type_infer_v6_6.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/pipeline/type_infer_v6_6.py",
+      "sha256": "9f509dc205bb59ae17b3132c89901ae45e8b1f00ee2ceb92d85468a6de351d40",
+      "bytes": 802,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/00_original_baseline/02_extract_nodes_edges.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/00_original_baseline/02_extract_nodes_edges.py",
+      "sha256": "ae6d3a9b8d00358d3460dfd3c4d210561e534cc6d8994c8c10ae7bbad2d5e552",
+      "bytes": 19282,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/00_original_baseline/over_v11_typesem_plus_paramflow_callfix.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/00_original_baseline/over_v11_typesem_plus_paramflow_callfix.py",
+      "sha256": "7dcdd019ddf020a221d1bdcbad26637c0640cbf32bc440094beb73aa0d201ee7",
+      "bytes": 426585,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/00_original_baseline/run_usg_headless_stream_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/00_original_baseline/run_usg_headless_stream_v2.py",
+      "sha256": "c5434541ad5083c937f69f25431e743872a2251bf493d12534618769f36f429f",
+      "bytes": 11842,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/01_modified_upstream/01_build_usg_index_v7.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/01_modified_upstream/01_build_usg_index_v7.py",
+      "sha256": "259e471736f4e230effeb250d9f1355b805b71492d1a5e6100fbc442e8284a66",
+      "bytes": 1475,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/01_modified_upstream/02_extract_nodes_edges_blocksem_v7.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/01_modified_upstream/02_extract_nodes_edges_blocksem_v7.py",
+      "sha256": "68b8a19cfcead0ee675bcdd3cfd01d044d3667e830cf62ccc27ae05fbf2c4179",
+      "bytes": 46248,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/01_modified_upstream/02_extract_nodes_edges_blocksem_v7_0_2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/01_modified_upstream/02_extract_nodes_edges_blocksem_v7_0_2.py",
+      "sha256": "68b8a19cfcead0ee675bcdd3cfd01d044d3667e830cf62ccc27ae05fbf2c4179",
+      "bytes": 46248,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/01_modified_upstream/inspect_blocksem_v7_contract.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/01_modified_upstream/inspect_blocksem_v7_contract.py",
+      "sha256": "870906c96f409b65f53db65fc77e84c7e934d9d6da913e6a14fa46379607de3b",
+      "bytes": 857,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/01_modified_upstream/over_v11_typesem_plus_paramflow_callfix_blocksem_v7.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/01_modified_upstream/over_v11_typesem_plus_paramflow_callfix_blocksem_v7.py",
+      "sha256": "907dc63749a26ac3a8ebf5b53adb1297057950a712525118c2dcb89d7d687ade",
+      "bytes": 440890,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/01_modified_upstream/run_usg_headless_stream_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/01_modified_upstream/run_usg_headless_stream_v2.py",
+      "sha256": "c5434541ad5083c937f69f25431e743872a2251bf493d12534618769f36f429f",
+      "bytes": 11842,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/02_cfi_provenance/build_selection_provenance_v7.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/02_cfi_provenance/build_selection_provenance_v7.py",
+      "sha256": "ff7aaf9d627765e7dd3be73659a0f9ff4b9fbf3313d6140e1f27f9135600013c",
+      "bytes": 4579,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/02_cfi_provenance/extract_cfi_intervals_v7.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/02_cfi_provenance/extract_cfi_intervals_v7.py",
+      "sha256": "1064307a2dd4d1aea5b62179e97c3e031049b7704b8ab3be88cde992731ff4bd",
+      "bytes": 2895,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/03_selection_validation/build_selection_validation_v7.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/03_selection_validation/build_selection_validation_v7.py",
+      "sha256": "1c409cbd9cb4c64e61ee9d5aabb1f00650203ee5661de9eb122cd37768e679c8",
+      "bytes": 5579,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/03_selection_validation/verify_selection_validation_v7.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/03_selection_validation/verify_selection_validation_v7.py",
+      "sha256": "490f858419c59fbcf89f6a5baf948070a6a4ac322effb3f48a927edb55e6b27b",
+      "bytes": 1328,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/BUILD_STATUS.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/BUILD_STATUS.json",
+      "sha256": "b1b828d00cd3230e429212d579c5bd03e8063e24e140f73d9b9a9a9281619eea",
+      "bytes": 1917,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/commands/00_smoke_upstream.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/commands/00_smoke_upstream.sh",
+      "sha256": "6bdb081cc7ef822029dd7f357966d38c714bf6f0861ae348c3a64a41a3efe811",
+      "bytes": 855,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/commands/01_full_upstream.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/commands/01_full_upstream.sh",
+      "sha256": "bd5d14923a7c5e97d1b0bdbab847aeb8eeafc7bd3d93024fb39bc70f68ecc9d3",
+      "bytes": 652,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/commands/02_rebuild_usg_graph.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/commands/02_rebuild_usg_graph.sh",
+      "sha256": "4ab26430dedcc24eb7c9f37d38b75cfd71dc304b6df33fe03292af89a83bec5f",
+      "bytes": 892,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/commands/03_build_selection_validation.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/commands/03_build_selection_validation.sh",
+      "sha256": "e86c775d6327cc8d744fb6155eba8e566dfa5e711b094ab6f5741cc76c5c3f69",
+      "bytes": 734,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/research_pipeline/vendor/upstream/tests/test_selection_builder.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/blocksem_subset100_v7_1_0/vendor/upstream/tests/test_selection_builder.py",
+      "sha256": "6e03d20c8679ee7d1fbdff8a0c902604a1267521a18e1bdedae15ce2428353c2",
+      "bytes": 1045,
+      "chapter": "2.1 2.2",
+      "status": "主线"
+    },
+    {
+      "path": "components/usg_compat/01_build_usg_index.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/01_build_usg_index.py",
+      "sha256": "cd5b9b208e06b78c0ce28a34fe913697b4f1ef2564fd1249f53570d270358ec9",
+      "bytes": 4578,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/02_extract_nodes_edges.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/02_extract_nodes_edges.py",
+      "sha256": "173c9c6056ab088c05f425c15f7fde6e5414c2ce82ddf9d8400caf225b30e6f2",
+      "bytes": 46082,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/06_featurize_objects_hier.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/06_featurize_objects_hier.py",
+      "sha256": "aa616b370d3e9a14e5db367cc374f91e58f70b4ae12f92870f0e3b16d89b75aa",
+      "bytes": 32858,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/over_v11_typesem_plus_paramflow.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/over_v11_typesem_plus_paramflow.py",
+      "sha256": "930be08821a50d14517842de8e574222ce1e9734672fa7b2809496d5bd41abc3",
+      "bytes": 407693,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/run_usg_headless_stream_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/run_usg_headless_stream_v2.py",
+      "sha256": "223294d711bfc6830d12f83c064f690d5ac15680f07b17748ead0a52e58666fd",
+      "bytes": 11747,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/audit_external_protocol_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/audit_external_protocol_v1.py",
+      "sha256": "b1a8c8ca4ca3a8a96b9e76906f637c7aa9027eb1a1445d59f759b70542872e21",
+      "bytes": 11135,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/audit_gold_firewall_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/audit_gold_firewall_v1.py",
+      "sha256": "5204279d58edeb608b394cc1464b7b3185abc24d53b936f716b981c96850bc5a",
+      "bytes": 4902,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/build_symgen_manifest_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/build_symgen_manifest_v1.py",
+      "sha256": "c8226b590737c3281202d84676b11616289a88ff4817ba3c749fd08506d49e79",
+      "bytes": 7645,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/compute_candidate_difficulty_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/compute_candidate_difficulty_v1.py",
+      "sha256": "5af0d9a1119aa84bfbe4bbd780f2923044821c8ef61bfe13ef4518a9a367f86c",
+      "bytes": 16289,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/extract_symgen_gold_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/extract_symgen_gold_v1.py",
+      "sha256": "f9d3e53f3539b8aca6e069444fb0c646d033827fb06042d7dc7da121651ff138",
+      "bytes": 7653,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/freeze_external_test_split_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/freeze_external_test_split_v1.py",
+      "sha256": "73456e2a83b25a0192766f9a89aa9e2a6a428fa8d9616beaceccf72157f87690",
+      "bytes": 3513,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/map_symgen_gold_to_usg_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/map_symgen_gold_to_usg_v1.py",
+      "sha256": "68b891d480d4fd2151ad95ca43c7294f7dc05c63e86d0d3cd2f475cbce8aa05f",
+      "bytes": 37743,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/prepare_symgen_pairs_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/prepare_symgen_pairs_v1.py",
+      "sha256": "a423b74e39db83d666250830ef880b993fdaf865df0a082c29aee52944668c84",
+      "bytes": 8629,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/symgen_dwarf_oracle_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/symgen_dwarf_oracle_v1.py",
+      "sha256": "1f13665a3f5d769b957204446cfe055987273ff590849bfd23b3e49603275bd1",
+      "bytes": 16676,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/verify_feature_contract_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/verify_feature_contract_v1.py",
+      "sha256": "7ab9adb2688a67e43589f644c1edc4153a1cdd3dd4612428fa7c8c086c992cf4",
+      "bytes": 1704,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/usg_compat/symgen_external/verify_frozen_resym_model_v1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1/symgen_external/verify_frozen_resym_model_v1.py",
+      "sha256": "d619eff98b285ec45c17975ca419e3ba41c8f212acf1a9a7a643867c60e76858",
+      "bytes": 8667,
+      "chapter": "2.1 2.3",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/semantic_export/BUILD_STATUS.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/BUILD_STATUS.json",
+      "sha256": "0815ad7996c4d0d65f9b2616b5eb205b90df5533cf451b9912f33d13ae12f3bd",
+      "bytes": 949,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/SOURCE_PROVENANCE.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/SOURCE_PROVENANCE.json",
+      "sha256": "d0f7b2132a1406d39bf0720579762565cf5a584f9d3b369ae6a09b5a0dfbfd4e",
+      "bytes": 845,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/cli.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/cli.py",
+      "sha256": "3a18fcc53ca09774e68b04f4055f761e674283c1492f625f407acd9bce305037",
+      "bytes": 4619,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/ghidra_scripts/ExportSeraphCodeV730.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/ghidra_scripts/ExportSeraphCodeV730.py",
+      "sha256": "aeb17a6897e07c373c03f4fc8fb253badb13a4253dad7a796e9398de08c0ba15",
+      "bytes": 3362,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/launch.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/launch.py",
+      "sha256": "56e859780c23b408cc2bdf1a8070c3d67c1243f4714491bd5271cb249f240850",
+      "bytes": 1506,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/run20.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/run20.sh",
+      "sha256": "8a5df9563fe9c999659437961de9affe25b34a87983c0e009bec9785c9835bf7",
+      "bytes": 519,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/seraph/__init__.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/seraph/__init__.py",
+      "sha256": "dea4b49e7a59d29bb23f5c2d01211d13d9ad4eaaefc6e66f436bcbfe26f27d30",
+      "bytes": 91,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/seraph/baseline.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/seraph/baseline.py",
+      "sha256": "c3c74028036e0d5597808621a108b400f43fa153670a5a85eab54ae939afc026",
+      "bytes": 6397,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/seraph/client.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/seraph/client.py",
+      "sha256": "b5ab2dd0ceb3d3bd156258d2a24789f7729dacb55391d58a698c738ae6444013",
+      "bytes": 5832,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/seraph/codebridge.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/seraph/codebridge.py",
+      "sha256": "2f87ff4df682e670398a5f7049b8dc07094f0991d90027c25702f3eed709096d",
+      "bytes": 4178,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/seraph/common.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/seraph/common.py",
+      "sha256": "4b35c0dbfe9ae256fcb0c155f06b2a755c67b03c38eb59bf7a6f0df769e9c3c2",
+      "bytes": 5613,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/seraph/evaluation.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/seraph/evaluation.py",
+      "sha256": "d221ede72776ff786de399c74520d190bf6ac4400a91b6fe019321151c792165",
+      "bytes": 5953,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/seraph/runner.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/seraph/runner.py",
+      "sha256": "778998445c79f9822cfb75f8fdd7ca833614b127a2f0dcfb898fdf2c43e3937b",
+      "bytes": 7846,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/seraph/source.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/seraph/source.py",
+      "sha256": "31504db734c009d7addaaf0e6b5e2921ae7bf23e9b1efac45e1034b351ddaa7f",
+      "bytes": 6275,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/seraph/ssq.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/seraph/ssq.py",
+      "sha256": "73cf87b89b6dd09328fa04411d4dea6337d2559fe1ed1445368f659e9cf4e753",
+      "bytes": 8243,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/start.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/start.sh",
+      "sha256": "473f487e0037cd8f974224df0c04696cd9fe0aad44c2f1b415fe7477e9973193",
+      "bytes": 136,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/semantic_export/tests/test_task1.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task1_v7_3_0/tests/test_task1.py",
+      "sha256": "56198cb9218c152a17e6f8393e711d72b7da367e97e9e9d8b9f54896b7f17d47",
+      "bytes": 15589,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/llm_adaptation/config.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_stage1_clean_v0_1_5/config.json",
+      "sha256": "a2b8df54bea05a5cda208b168438cd157f2c5f7d1f13da7f5185e541c8abda90",
+      "bytes": 2231,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/llm_adaptation/launch.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_stage1_clean_v0_1_5/launch.sh",
+      "sha256": "3a8f0b411612d73bc9e6f2b01a699679dc9398ad1a1deffdc8bdf1df03a546a7",
+      "bytes": 603,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/llm_adaptation/run.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_stage1_clean_v0_1_5/run.sh",
+      "sha256": "52bc7c541de7b125795bc88f1d9a4942b01e61266cc96310a79b9fe13386f9a8",
+      "bytes": 566,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/llm_adaptation/src/common.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_stage1_clean_v0_1_5/src/common.py",
+      "sha256": "8703f40f574300a66cfdef2479232c6fe379693284e55d7c9d30fb1611ca1602",
+      "bytes": 8686,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/llm_adaptation/src/prepare.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_stage1_clean_v0_1_5/src/prepare.py",
+      "sha256": "2dd5d592cfa416fe0ebf00addce9e19782e254e9525292e073e90c47becb6134",
+      "bytes": 12780,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/llm_adaptation/src/train_clean.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_stage1_clean_v0_1_5/src/train_clean.py",
+      "sha256": "29eb8f62b0f66f17afd6d6dfffd54b11dcafe004350e32b6ee5dd012d6c29c3f",
+      "bytes": 15724,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/llm_adaptation/src/verify.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_stage1_clean_v0_1_5/src/verify.py",
+      "sha256": "be9391600192201cc979f5f3d198f4bafb93179d4aad43f656b043604e827575",
+      "bytes": 7290,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/llm_adaptation/tests/test_clean_contract.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_stage1_clean_v0_1_5/tests/test_clean_contract.py",
+      "sha256": "6a06555b9b52b77add6c6efc8f547cf43de20ccb2d99344024718f1d4116d3bb",
+      "bytes": 1409,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/config.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/config.json",
+      "sha256": "42578d7431f642563a4f12413c38674790d7febec3c95fd16e1f137b474df7df",
+      "bytes": 2305,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/run.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/run.sh",
+      "sha256": "cd7ab94e1800aee7c4886fff8f1218fe493665756b0c0b9bea0de8c80594e998",
+      "bytes": 2988,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/src/audit_embedding_coverage.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/src/audit_embedding_coverage.py",
+      "sha256": "b8423dc8c7a495f7fd66cff090d4ae83150e7960b19b88a96e397fb64408a817",
+      "bytes": 6869,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/src/build_clean_features.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/src/build_clean_features.py",
+      "sha256": "50acacc010a1ac015b276b3f374f24686cfc1d677e1cc7aa527d8b37bfa70cff",
+      "bytes": 19508,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/src/evidence_objective_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/src/evidence_objective_v2.py",
+      "sha256": "6ac4ff36eaa6cf4aebb310f3d3b6dd34577da293cfeb3723cb8553cfe20fb1dd",
+      "bytes": 25857,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/src/export_clean_embeddings.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/src/export_clean_embeddings.py",
+      "sha256": "56c85b5839bf6d445de2f8edfe0b5ef6666bea8048eb2c2d3447092b9d44563e",
+      "bytes": 4579,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/src/finalize_reports.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/src/finalize_reports.py",
+      "sha256": "645b01d27ee57913e96616d794eea6649b8eafde48cab842ab837d009ea737cc",
+      "bytes": 7326,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/src/io_utils.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/src/io_utils.py",
+      "sha256": "4152cf5775947b9d82f0c7a3d0241f5e60ba48e45af3bcc26d6870822b33e247",
+      "bytes": 741,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/src/prepare_clean_data.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/src/prepare_clean_data.py",
+      "sha256": "58775ae87eb3e6166d9895e84edca240e08daa2d19547cea21ab5948689bc388",
+      "bytes": 9232,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/src/split_isolation_v3.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/src/split_isolation_v3.py",
+      "sha256": "fd45ef2ff9af00fca4f24778724242ec331b9f01420f07c69cd06f3a80ef211f",
+      "bytes": 15355,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/symbolic_encoder/src/train_clean_alignment.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8/src/train_clean_alignment.py",
+      "sha256": "441755d695d083dd4d12da39b25f8504adfaa996b39fad89129837706e6c8127",
+      "bytes": 63369,
+      "chapter": "2.2.1 2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/config.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/config.json",
+      "sha256": "5218d41044c80aac6155b874ce1b9ce6ed19ccdedd4c16a0757e3c47a0dd25d4",
+      "bytes": 7867,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/launch_all.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/launch_all.sh",
+      "sha256": "dd88e28f9ade4531261360e7d1d4a7f530c77c13b5c404cc347df6df2050fb8d",
+      "bytes": 2022,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/run.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/run.sh",
+      "sha256": "f1e62db16686e95d3d1aed04937f3cda7ef11ed5ba436f8c1e65d8874e074dc7",
+      "bytes": 1067,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/src/aggregate_reports.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/src/aggregate_reports.py",
+      "sha256": "354fb0909ae2a7456b402cc09a58c311336e020bc574d75146ca7f1c310b9203",
+      "bytes": 17212,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/src/checkpointing.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/src/checkpointing.py",
+      "sha256": "f900b0a77c4fee57bcda627bbe2e4184f01bcc2cd0cb51fbd011b7ac523763cb",
+      "bytes": 3142,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/src/common.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/src/common.py",
+      "sha256": "7525d34bd4f0e237072835e66a87172bb96014a89a60fd45e3b50702019e9a33",
+      "bytes": 1427,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/src/model.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/src/model.py",
+      "sha256": "890e6dfcbcca79971b8a2c2ff9d008b8258650f24ce75d95c5cc39d5874ed1aa",
+      "bytes": 7318,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/src/permutation_eval.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/src/permutation_eval.py",
+      "sha256": "deb88befe9cd33b6cd6e6e6f85bbab7260567bc935967c2a3e5d2435a755ef37",
+      "bytes": 3374,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/src/preflight.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/src/preflight.py",
+      "sha256": "1ed915fe9e2c055a98f9f7426daec4f973965523abe829a92cb54c95f43af2f3",
+      "bytes": 13907,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/src/prepare_contract.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/src/prepare_contract.py",
+      "sha256": "27b29f81abd0ca67a9f7f8aa53ee2eeabe2f83cd8a2b650730e800c8ede4a205",
+      "bytes": 13316,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/src/protocol.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/src/protocol.py",
+      "sha256": "7050c3389a1110c5fb39162442824b8a64336fe5944126e935db39a96c0501f2",
+      "bytes": 7690,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/src/select_final.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/src/select_final.py",
+      "sha256": "6444a06d872780d78179536fe1a13d8bc04a0079186437e81439669f4ea55f87",
+      "bytes": 11181,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/src/train_clean_joint.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/src/train_clean_joint.py",
+      "sha256": "234f42c3542b39b282622355365f7ca39204d8f54d2262fe762a9638053aa2f7",
+      "bytes": 25773,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/tests/test_framework.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/tests/test_framework.py",
+      "sha256": "3843924940f5e076441d2ae3ac3960dcb498050ff61ea6d6ba327dd0d4f82ea8",
+      "bytes": 11750,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_joint/tests/test_selection_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_joint_v0_2_10/tests/test_selection_v2.py",
+      "sha256": "ed22f68cba6e8794fdcd04706403b9922fcc502359329de8f68de007e1c1e26e",
+      "bytes": 2094,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_evaluation/final_test_v2_evaluate.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2/final_test_v2_evaluate.py",
+      "sha256": "ff9c5cd6c689d3c10bf2d265754843c916a15da9cfc70eef87c26d3f6d1d9c5e",
+      "bytes": 18342,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_evaluation/final_test_v2_predict.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2/final_test_v2_predict.py",
+      "sha256": "04e907de8c9515e76b42049add68076e1671d23455b5f3dc2665aadc7193bb72",
+      "bytes": 22526,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/semantic_freeze/verify_lock.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_freeze_v0_3_3b/verify_lock.py",
+      "sha256": "a6bd61f11a191d0ebe38b6101e1258ba836d7d9b91bbb670da9e7398a1faf23e",
+      "bytes": 24146,
+      "chapter": "2.3.1",
+      "status": "主线"
+    },
+    {
+      "path": "components/test_data/config.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2_build/config.json",
+      "sha256": "d3312ebda03d5182e5dc1b58a0cc673dd5f3e6a67398ba678bdcf01fdd1ac292",
+      "bytes": 2902,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/test_data/src/build_candidates.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2_build/src/build_candidates.py",
+      "sha256": "33e2d2217dbc8a4cd30318e7b7de2b48b07396c114f6835051862c937f979607",
+      "bytes": 11513,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/test_data/src/build_candidates_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2_build/src/build_candidates_v2.py",
+      "sha256": "0cac49207aa57ec155f6296a82807c4695b11656f73e3dac302516d70798eed7",
+      "bytes": 12015,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/test_data/src/build_registry.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2_build/src/build_registry.py",
+      "sha256": "314cdfd5a293dc11d2c3c95f32a4c6fa7ffb9528ee1274a4bfd40e0f24ca28a3",
+      "bytes": 8759,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/test_data/src/finalize_dataset.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2_build/src/finalize_dataset.py",
+      "sha256": "f9c883f61c2bdb99e8d98905179273e76ca9922196e5ad5629fe1d7f37d212e3",
+      "bytes": 23698,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/test_data/src/map_gold_v2.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2_build/src/map_gold_v2.py",
+      "sha256": "b85b83fc39f74c6f04fd140bd4c3752f2d30b1097ccfe4aca862482953e6161e",
+      "bytes": 4533,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/test_data/src/map_instructions.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2_build/src/map_instructions.py",
+      "sha256": "b46e14b36fd9ce35dd9bfbbe30799e033fc5b05a0002f459f4af468a552a2fd3",
+      "bytes": 10809,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/test_data/src/pipeline.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2_build/src/pipeline.py",
+      "sha256": "179fb32e25a8cba9120e649f24866c07db5d2921997393d4ed3b8814f3d96a37",
+      "bytes": 7527,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/test_data/src/preflight.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2_build/src/preflight.py",
+      "sha256": "1824deb74c888a93a98f84e4b7fee5214558a99a3f9d91bbda935aafcccedac4",
+      "bytes": 4608,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/test_data/src/prepare_inputs.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_final_test_v2_build/src/prepare_inputs.py",
+      "sha256": "f97248418c1357bd7a48abd6461150b441bbc254695bde59b7cb44f22035923b",
+      "bytes": 7510,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/data_split/config.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_7_global_split/config.json",
+      "sha256": "30e56cd85c97982910f9b4bc3dd2b674bd0b81f85fafd80d3a54e330ef730e92",
+      "bytes": 2450,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/data_split/run.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_7_global_split/run.sh",
+      "sha256": "cc42f4a030ea955e70d3bebdd88fa2f50796bbd78e44793de8cb4a68c8703927",
+      "bytes": 411,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/data_split/src/build_global_split.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_7_global_split/src/build_global_split.py",
+      "sha256": "da813be07d763f895d7ef60d701a5bdd5522dc01cf58c9be430b122efb5614bb",
+      "bytes": 53778,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/data_split/src/common.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_7_global_split/src/common.py",
+      "sha256": "92364fcdb1015189f883ae906ab502deb46178fa5abee39c3fc6bf02f2461527",
+      "bytes": 1499,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/data_split/tests/test_contract.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_7_global_split/tests/test_contract.py",
+      "sha256": "e991b60500ea59a73bf1d230764950c0ea7cc82f2b56d38b7ef513b0d719edde",
+      "bytes": 1409,
+      "chapter": "2.3.1",
+      "status": "必要数据接口"
+    },
+    {
+      "path": "components/instruction_mapping/ExportSeraphMappingV022.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_2_mapping/ExportSeraphMappingV022.py",
+      "sha256": "96a241f61e0e4d823001ee5bdaa483312d42034faf854c60678a1e7c0dae19e8",
+      "bytes": 9770,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/instruction_mapping/config.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_2_mapping/config.json",
+      "sha256": "44ac139e5f89acaa61a862b2c7d96e35f9501bf5ff2c10e801dec37792d5bcd4",
+      "bytes": 1199,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/instruction_mapping/ghidra_scripts/ExportSeraphMappingV022.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_2_mapping/ghidra_scripts/ExportSeraphMappingV022.py",
+      "sha256": "96a241f61e0e4d823001ee5bdaa483312d42034faf854c60678a1e7c0dae19e8",
+      "bytes": 9770,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/instruction_mapping/run.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_2_mapping/run.sh",
+      "sha256": "8a39e8c90edd58b4339f43c572224a6f9478a0820f2bd34dac35c9c4752d502d",
+      "bytes": 589,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/instruction_mapping/run_full_export.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_2_mapping/run_full_export.py",
+      "sha256": "7c2f22ec13111cc6429e42f5f770812d5c82c84abd8f0733d31f1845b4cb4e77",
+      "bytes": 8171,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/instruction_mapping/src/audit_mapping.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_2_mapping/src/audit_mapping.py",
+      "sha256": "8684d8b38b9981ede9a0d915a3027f2d96310a75a139d92dfee85f64e5f4dbdd",
+      "bytes": 23977,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/instruction_mapping/src/common.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_2_mapping/src/common.py",
+      "sha256": "7f7109213721948dc90da36116fbee3f81647b057f1ed0ba1fcb92f6d114357f",
+      "bytes": 3410,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/instruction_mapping/src/config_value.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_2_mapping/src/config_value.py",
+      "sha256": "922bd0c37417b26357e058a67779f2bdc7cc741b341e78f5c7de647f224af855",
+      "bytes": 140,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/instruction_mapping/src/run_full_export.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_2_mapping/src/run_full_export.py",
+      "sha256": "7c2f22ec13111cc6429e42f5f770812d5c82c84abd8f0733d31f1845b4cb4e77",
+      "bytes": 8171,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/instruction_mapping/tests/test_mapping_helpers.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_local_joint_v0_2_2_mapping/tests/test_mapping_helpers.py",
+      "sha256": "c6fef171b5e8266efe2f736abab6a11315ddaa5e7ed16bba3ef6033fd09e0cde",
+      "bytes": 1482,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/gold_mapping/src/map_symgen_gold_indexed_v031a.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_ssq_layout_dev_supplement_v0_3_1a/src/map_symgen_gold_indexed_v031a.py",
+      "sha256": "244027fdefa613abda014803a8875fc72803ff5a52e1c7edc72a5b9759190279",
+      "bytes": 42670,
+      "chapter": "2.3.1",
+      "status": "必要兼容依赖"
+    },
+    {
+      "path": "components/ssq_transport/external_api_smoke_repair.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_external_ssq_v0_4_0b_api_smoke_repair/external_api_smoke_repair.py",
+      "sha256": "1395a4d3b25f44c8c2ba869b265c2b12480bda118d98bef0f00cb1f652e4fee3",
+      "bytes": 26672,
+      "chapter": "2.3.1",
+      "status": "可选审计依赖"
+    },
+    {
+      "path": "components/ssq_design/external_ssq_context_contract.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_external_ssq_v0_4_0c_design/external_ssq_context_contract.py",
+      "sha256": "a1d265f9413214712e18f10dd06e133be69e8e8bf29c62f4db5ddd5e1043a20f",
+      "bytes": 9221,
+      "chapter": "2.3.1",
+      "status": "可选审计依赖"
+    },
+    {
+      "path": "components/ssq_design/external_ssq_context_metrics.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_external_ssq_v0_4_0c_design/external_ssq_context_metrics.py",
+      "sha256": "4ae4529be648f1dfcbe8e68bc43ffbd5a27fc139f60bcf2d23f4a2e6b76637ad",
+      "bytes": 13121,
+      "chapter": "2.3.1",
+      "status": "可选审计依赖"
+    },
+    {
+      "path": "components/ssq_design/external_ssq_design_client.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_external_ssq_v0_4_0c_design/external_ssq_design_client.py",
+      "sha256": "aac461f690d93d085b68221f2de45b44f140b3b0a55a8cd37a8ca436ff535891",
+      "bytes": 11970,
+      "chapter": "2.3.1",
+      "status": "可选审计依赖"
+    },
+    {
+      "path": "components/ssq_design/external_ssq_design_eval.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_external_ssq_v0_4_0c_design/external_ssq_design_eval.py",
+      "sha256": "d56ddbce57d1795a8943155e6a70c3a0bfb1a81f8678b094878959faf0305eca",
+      "bytes": 16940,
+      "chapter": "2.3.1",
+      "status": "可选审计依赖"
+    },
+    {
+      "path": "components/ssq_audit/external_ssq_order_client.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_external_ssq_v0_4_0e_order_audit/external_ssq_order_client.py",
+      "sha256": "d4b840e15075898aa9dc1aea53332102199c7b8286bd686e3592faffa1c23ff4",
+      "bytes": 17073,
+      "chapter": "2.3.1",
+      "status": "可选审计默认关闭"
+    },
+    {
+      "path": "components/ssq_audit/external_ssq_order_eval.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_external_ssq_v0_4_0e_order_audit/external_ssq_order_eval.py",
+      "sha256": "ace46ffce2b29862a4362a03a689e903f944fde2697d6dd87b1f72e136d4f239",
+      "bytes": 20926,
+      "chapter": "2.3.1",
+      "status": "可选审计默认关闭"
+    },
+    {
+      "path": "components/ssq_audit/external_ssq_order_run.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_external_ssq_v0_4_0e_order_audit/external_ssq_order_run.sh",
+      "sha256": "7d958196f557885d610956b19a5d53f9b0a2f0fc4100c49d558cc9f7297b9217",
+      "bytes": 468,
+      "chapter": "2.3.1",
+      "status": "可选审计默认关闭"
+    },
+    {
+      "path": "components/ssq_audit/external_ssq_order_tie_diagnostic.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_external_ssq_v0_4_0e_order_audit/external_ssq_order_tie_diagnostic.py",
+      "sha256": "4e8c825752058f8720d6f0de3f6c06ce233b88c09f78fe5a3bee7fbecd7db933",
+      "bytes": 6660,
+      "chapter": "2.3.1",
+      "status": "可选审计默认关闭"
+    },
+    {
+      "path": "components/security_semantics/actual_formal_binding_sidecar.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/actual_formal_binding_sidecar.py",
+      "sha256": "eadc1b31762052d39e17d0ee58157e487d8e46caacb1103f177328c561b525e8",
+      "bytes": 30017,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/security_semantics/formal_simple_ranker_v029.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/formal_simple_ranker_v029.py",
+      "sha256": "48aad8e1ded73129c254366450c2982defc1477a3d757d4ef0b8e8341a32c91f",
+      "bytes": 13323,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/security_semantics/gnn_smoke_v020.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/gnn_smoke_v020.py",
+      "sha256": "1b6f4f51e5c6efb360ebaab195f0b617c85d7203afeda5c59a2f15446dc49dfe",
+      "bytes": 42990,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/security_semantics/interface_safety_adapter.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/interface_safety_adapter.py",
+      "sha256": "d783b49045d0a1f3d7737fbe8cf82c2d75c352d82a4929cc3a4dbf9b582d6843",
+      "bytes": 21178,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/security_semantics/interprocedural_dfg_v018.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/interprocedural_dfg_v018.py",
+      "sha256": "09540c85db0947d141fa8b5101e8e54f90b5062a5f5bd2c4d1ccb2df607b7aff",
+      "bytes": 35812,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/security_semantics/layout_safety_adapter.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/layout_safety_adapter.py",
+      "sha256": "9347c3f6cabc6dda0d46033b0068e1ea66ba8e89b52da63a3902899f8e877f8d",
+      "bytes": 8225,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/security_semantics/stage2_infer.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/stage2_infer.py",
+      "sha256": "a9da8cc9a6f111084adc75d2abd5c207f3e23fadce02672e827313f0ab1c3c8b",
+      "bytes": 18185,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/security_semantics/task2_config.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/task2_config.json",
+      "sha256": "ae6543940faaa9345a4043fdd3cd310fe14e1d0d7f55505599eb5c25ef06e781",
+      "bytes": 2113,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/security_semantics/task2_core.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/task2_core.py",
+      "sha256": "b55206cd2bb8030d2d00053b7c160f96cf832b96aecbf278059f714a160afd58",
+      "bytes": 30448,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/security_semantics/task2_hsym_forward.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/task2_hsym_forward.py",
+      "sha256": "663a0eab9039341859661d06058dddd540a1cefbc71c9a94dc6ed916d821316e",
+      "bytes": 6408,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/security_semantics/type_safety_adapter.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_2_10/type_safety_adapter.py",
+      "sha256": "8a1dd6b3c444302b96b2c10e4124998f2bc6617cc6124f66e5b2550d3cbd70df",
+      "bytes": 10817,
+      "chapter": "2.3.2",
+      "status": "能力保留非v038默认链"
+    },
+    {
+      "path": "components/vulnerability/PACKAGE_FREEZE_SHA256SUMS",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/PACKAGE_FREEZE_SHA256SUMS",
+      "sha256": "722972db437ff3b8022594c924ae4f2c1529829c4e697f0a97dfc833c0449729",
+      "bytes": 946,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/evaluate_v038.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/evaluate_v038.py",
+      "sha256": "6d0d71bedc19d37f195784029a9cf7847e370e2192cd66a04c6a6754d1d88389",
+      "bytes": 19743,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/finalize_v038.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/finalize_v038.py",
+      "sha256": "7729cb73e51ca0573fd18182e4c4d441e5cf0e78e21428f128908f12fd9a8c76",
+      "bytes": 9238,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/generate_v035_frozen.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/generate_v035_frozen.py",
+      "sha256": "b11d1d6e69061557a209239d790a741e71d00efd767982e67f4fe67ed5fb7fd7",
+      "bytes": 26448,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/gold_v038.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/gold_v038.py",
+      "sha256": "6bdfd325bf45489baec4ae0780be476115051c325a5a0c4a18379198698afa73",
+      "bytes": 6016,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/predict_v038.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/predict_v038.py",
+      "sha256": "8898160d9896ce0de1fec98bc28238193c1b441bb7b14770ae7cb749a3520e52",
+      "bytes": 9412,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/prepare_v038.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/prepare_v038.py",
+      "sha256": "67c34356a24336e5e05dfd708bcd57805605707a4fad71c0ac0958cf7407bb87",
+      "bytes": 2305,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/run_usg_v038.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/run_usg_v038.py",
+      "sha256": "a3c21eedd694bee1e885f7b8ed7ce641699ee4e07720b1e943a5335c3989394d",
+      "bytes": 2946,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/task2_juliet_range.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/task2_juliet_range.py",
+      "sha256": "f0d55cd300db2870b6c2e6fcb6e9562cbd2a622def6654bb4055349d966558a3",
+      "bytes": 8751,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/v031_symbolic_verifier.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/v031_symbolic_verifier.py",
+      "sha256": "6a068fb938622cc0f6f9bd7a06fb8efa33d3e0f1eef05ef09ec0a81d943734f1",
+      "bytes": 36933,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/v033_path_verifier_frozen.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/v033_path_verifier_frozen.py",
+      "sha256": "15a5336ca8d03301d058314e578b088487300d20cc48057ce37ae0b16076bb46",
+      "bytes": 45219,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/vulnerability/v035_config_frozen.json",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_8/v035_config_frozen.json",
+      "sha256": "7974c8f3e8f94e6def60c5f999f6beab5a51f5ec6383b162f1eedb736baa4276",
+      "bytes": 1600,
+      "chapter": "2.3.2",
+      "status": "指定主线扩展实验已完成"
+    },
+    {
+      "path": "components/localization_evaluation/evaluate_localization.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_localization_eval_v0_1/evaluate_localization.py",
+      "sha256": "128a42a9f628a756967a8746ab23a8fb137a2df6a97bc48317e63bd0e5202b8c",
+      "bytes": 18512,
+      "chapter": "2.3.2",
+      "status": "独立定位评测"
+    },
+    {
+      "path": "components/localization_evaluation/run_evaluation.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_localization_eval_v0_1/run_evaluation.sh",
+      "sha256": "dbe945c78415e55a915e50594b43eada64ab83b41d4d5d23c111c517a1dd3424",
+      "bytes": 478,
+      "chapter": "2.3.2",
+      "status": "独立定位评测"
+    },
+    {
+      "path": "components/vulnerability/prepare_v037.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/packages/seraph_task2_vuln_v0_3_7/prepare_v037.py",
+      "sha256": "11ede5705fe341b42a4522576d3baf7a4e315fce4ee7b95464bad65700f0a04e",
+      "bytes": 32180,
+      "chapter": "2.3.2",
+      "status": "v038数据准备依赖"
+    },
+    {
+      "path": "components/data_tools/build_manifest_with_full.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/scripts/build_manifest_with_full.py",
+      "sha256": "3be59db2eb557776c87d854fad569877c850ffa4cbdf956efa68c369e75ef10a",
+      "bytes": 1796,
+      "chapter": "2.1 2.3.1",
+      "status": "共享数据与评测工具"
+    },
+    {
+      "path": "components/data_tools/eval_dwarf_progress_wrapper.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/scripts/eval_dwarf_progress_wrapper.py",
+      "sha256": "856f13a01a3f3e0c9646c242b5affbbf686441d741f64d20ecdd3f462d148279",
+      "bytes": 7467,
+      "chapter": "2.1 2.3.1",
+      "status": "共享数据与评测工具"
+    },
+    {
+      "path": "components/data_tools/eval_resym_dwarf_semantics_v7.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/scripts/eval_resym_dwarf_semantics_v7.py",
+      "sha256": "07e1d04d737e3602b80c34e96d28045131827e65aaffd9e045a1ff41b608f54d",
+      "bytes": 32289,
+      "chapter": "2.1 2.3.1",
+      "status": "共享数据与评测工具"
+    },
+    {
+      "path": "components/data_tools/inspect_semantic_json.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/scripts/inspect_semantic_json.py",
+      "sha256": "e8d524ce2f49c39e5c7af83788ee2083a447fdb5f07f8be3725afab8a986705c",
+      "bytes": 2614,
+      "chapter": "2.1 2.3.1",
+      "status": "共享数据与评测工具"
+    },
+    {
+      "path": "components/data_tools/prepare_s80_samples.sh",
+      "source_path": "/data/chaoni/mjy/resym_exp/scripts/prepare_s80_samples.sh",
+      "sha256": "fe13b6e5be438bebbb50f5e72f9601ba9dddb8a0013b3e67743cfea1a477e2f7",
+      "bytes": 1027,
+      "chapter": "2.1 2.3.1",
+      "status": "共享数据与评测工具"
+    },
+    {
+      "path": "components/data_tools/summarize_usg_outputs.py",
+      "source_path": "/data/chaoni/mjy/resym_exp/scripts/summarize_usg_outputs.py",
+      "sha256": "ded1ce8a5dd33d2fa9f35f4c9664a379eea6d6e93ebb77378095dd299d894901",
+      "bytes": 3784,
+      "chapter": "2.1 2.3.1",
+      "status": "共享数据与评测工具"
+    }
+  ],
+  "notes": [
+    "仅整理交付结构，不改动原算法文件。",
+    "v038作为用户指定主线，运行结果须另行验收。",
+    "2.3.3未发现独立实现。",
+    "旧路径兼容链接需要在实验结束后安装，安装前不清理历史源。"
+  ]
+}

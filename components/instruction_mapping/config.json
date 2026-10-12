@@ -1,0 +1,21 @@
+{
+  "schema": "seraph_local_joint_v0_2_2_mapping",
+  "python": "/home/cn/miniconda3/envs/seraph_llm/bin/python",
+  "model_dir": "/data/chaoni/mjy/DeepSeek-Coder-6.7B-Base",
+  "analyze_headless": "/data/chaoni/mjy/resym_exp/ghidra_12.0.4_PUBLIC/support/analyzeHeadless",
+  "java_home": "/data/chaoni/mjy/resym_exp/jdk-21.0.11",
+  "selection_pairs_csv": "/data/chaoni/mjy/resym_exp/validation_runs/blocksem_subset20_v7_1_0/gold_zone/pairs.csv",
+  "task1_dir": "/data/chaoni/mjy/resym_exp/validation_runs/blocksem_subset20_v7_1_0/seraph_task1_v7_3_0/all",
+  "v021_mapping": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_1/instruction_mapping.jsonl",
+  "v020_arms_root": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_0_smoke/arms",
+  "output_root": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_2_mapping",
+  "export_run_dir": "ghidra_mapping_exports_run_2",
+  "max_length": 512,
+  "verified_coverage_threshold": 0.8,
+  "sample_count": 20,
+  "decompile_timeout_seconds": 60,
+  "max_syntax_ancestor_depth": 16,
+  "seed": 20260929,
+  "apisem_status": "DEFERRED_BY_SPLIT_CONTRACT",
+  "constraint_status": "NO_EXECUTABLE_CONSTRAINT_SUPERVISION"
+}

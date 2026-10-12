@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.zip
+*.tar.gz
+training_runs/
+validation_runs/
+external_data/
+local_status/

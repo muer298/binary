@@ -1,0 +1,22 @@
+{
+  "blocksem_subset100_v7_1_0": "components/research_pipeline",
+  "research2_symgen_external_validation_final_v1": "components/usg_compat",
+  "seraph_task1_v7_3_0": "components/semantic_export",
+  "seraph_stage1_clean_v0_1_5": "components/llm_adaptation",
+  "seraph_clean_hsym_v0_2_8": "components/symbolic_encoder",
+  "seraph_clean_joint_v0_2_10": "components/semantic_joint",
+  "seraph_final_test_v2": "components/semantic_evaluation",
+  "seraph_final_freeze_v0_3_3b": "components/semantic_freeze",
+  "seraph_final_test_v2_build": "components/test_data",
+  "seraph_local_joint_v0_2_7_global_split": "components/data_split",
+  "seraph_local_joint_v0_2_2_mapping": "components/instruction_mapping",
+  "seraph_ssq_layout_dev_supplement_v0_3_1a": "components/gold_mapping",
+  "seraph_external_ssq_v0_4_0b_api_smoke_repair": "components/ssq_transport",
+  "seraph_external_ssq_v0_4_0c_design": "components/ssq_design",
+  "seraph_external_ssq_v0_4_0e_order_audit": "components/ssq_audit",
+  "seraph_task2_vuln_v0_2_10": "components/security_semantics",
+  "seraph_task2_vuln_v0_3_8": "components/vulnerability",
+  "seraph_task2_localization_eval_v0_1": "components/localization_evaluation",
+  "seraph_task2_vuln_v0_2_0": "components/security_semantics",
+  "seraph_task2_vuln_v0_3_7": "components/vulnerability"
+}

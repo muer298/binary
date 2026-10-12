@@ -1,0 +1,19 @@
+{
+  "schema": "blocksem_subset100_v7_1_0_build_status",
+  "python_compile_pass": false,
+  "unit_tests_pass": true,
+  "unit_test_output": "Spreadsheet runtime warmup failed during python startup\nTraceback (most recent call last):\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py\", line 26, in warm_spreadsheet_runtime_on_startup\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py\", line 772, in warm_spreadsheet_runtime\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/connection.py\", line 37, in get_or_create_client\n  File \"/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/daemon.py\", line 124, in start_daemon\nTimeoutError: Timed out waiting for artifact tool daemon socket. Set ARTIFACT_TOOL_RPC_DAEMON_STARTUP_TIMEOUT_S=<seconds> to increase the limit.\ntest_selection_hash_is_deterministic (test_clean_package.CleanPackageTests.test_selection_hash_is_deterministic) ... ok\ntest_stage04_real_edge_lineage (test_clean_package.CleanPackageTests.test_stage04_real_edge_lineage) ... ok\ntest_v56_evaluator_revision_contract (test_clean_package.CleanPackageTests.test_v56_evaluator_revision_contract) ... ok\ntest_v702_api_provenance_survives (test_clean_package.CleanPackageTests.test_v702_api_provenance_survives) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.436s\n\nOK\n",
+  "start_sh_syntax_pass": true,
+  "monitor_sh_syntax_pass": true,
+  "focused_contracts": [
+    "v7.0.2 API provenance survives semantic_dict -> APISem attrs",
+    "Stage04 derived constraint uses real backing edge lineage",
+    "Stage05 evaluator accepts v5.6 revision",
+    "sample hash selection deterministic"
+  ],
+  "limitations": [
+    "Full server run was not executed in this environment",
+    "Frozen model artifacts are not bundled",
+    "This is diagnostic subset ranking, not Selection Validation or Formal Test"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "seraph_clean_hsym_v0_2_8",
+  "python": "/home/cn/miniconda3/envs/seraph_llm/bin/python",
+  "seed": 1337,
+  "expected_manifest_sha256": "769b0ae6d75a484f5071a96eec5279edf90c58eb033bff12ad91a79571b211b0",
+  "v027_root": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split",
+  "global_manifest": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/joint_manifest_global_clean_v0_2_7.jsonl",
+  "global_split_contract": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/global_split_contract.json",
+  "global_inventory": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/global_identity_inventory.jsonl",
+  "clean_retrain_contract": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/HSYM_CLEAN_RETRAIN_CONTRACT.json",
+  "feature_allowlist": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/HSYM_FEATURE_ALLOWLIST.json",
+  "feature_audit": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/HSYM_FEATURE_AUDIT_V2.md",
+  "apisem_split_report": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/APISem_global_split_report.json",
+  "task1_samples": "/data/chaoni/mjy/resym_exp/validation_runs/blocksem_subset20_v7_1_0/seraph_task1_v7_3_0/all/samples",
+  "strict_gold": "/data/chaoni/mjy/resym_exp/validation_runs/blocksem_subset20_v7_1_0/gold_eval_v7_1_3/mapped_strict_gold.jsonl",
+  "raw_nodes": "/data/chaoni/mjy/resym_exp/validation_runs/blocksem_subset20_v7_1_0/steps/01_graph/usg_nodes.jsonl",
+  "raw_edges": "/data/chaoni/mjy/resym_exp/validation_runs/blocksem_subset20_v7_1_0/steps/01_graph/usg_edges.jsonl",
+  "eligible_nodes": "/data/chaoni/mjy/resym_exp/validation_runs/blocksem_subset20_v7_1_0/steps/02_features/graphs/model_input.jsonl",
+  "neighborhoods": "/data/chaoni/mjy/resym_exp/validation_runs/blocksem_subset20_v7_1_0/steps/02_features/anchors/final.jsonl",
+  "old_embeddings": "/data/chaoni/mjy/resym_exp/task2_exp_v11_typesem_plus_paramflow_callfix_3000/outputs/alignment_stage5_unified_v6_5_v6_5_formal_repair_r1_full/node_embeddings.pt",
+  "output_root": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8"
+}

@@ -1,0 +1,15 @@
+{
+  "package": "blocksem_subset100_v7_1_0",
+  "version": "7.1.0",
+  "purpose": "deterministic 100-sample diagnostic pipeline",
+  "base_controller": "blocksem_resume_partial_v1",
+  "upstream_semantic_exporter": "research2_blocksem_upstream_selection_v7_0_1",
+  "usg_extractor": "02_extract_nodes_edges_blocksem_v7_0_2.py",
+  "integrated_fixes": {
+    "api_provenance": "v7.0.2 semantic_template.symbol_resolution -> auditable api_source",
+    "binding_lineage": "synthetic constraint_id separated from real BindingStore source_edge_id",
+    "reasoning_evaluator": "v5.5/v5.6 implementation revision compatibility",
+    "execution": "nohup + locks + stage checkpoints + invalid-semantic quarantine",
+    "selection": "SHA256(seed + NUL + sample_id), exact N, no Gold/model/completion-order selection"
+  }
+}

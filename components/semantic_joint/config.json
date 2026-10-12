@@ -1,0 +1,140 @@
+{
+  "schema": "seraph_clean_joint_v0_2_10",
+  "python": "/home/cn/miniconda3/envs/seraph_llm/bin/python",
+  "output_root": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_joint_v0_2_10",
+  "global_manifest": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/joint_manifest_global_clean_v0_2_7.jsonl",
+  "global_split_contract": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/global_split_contract.json",
+  "expected_global_manifest_sha256": "769b0ae6d75a484f5071a96eec5279edf90c58eb033bff12ad91a79571b211b0",
+  "v027_report": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/global_clean_manifest_report.json",
+  "v028_root": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8",
+  "v028_final_report": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/v0_2_8_final_status.json",
+  "v028_training_report": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/clean_training_report.json",
+  "v028_feature_leakage_audit": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/clean_feature_leakage_audit.json",
+  "v028_coverage_report": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/clean_embedding_coverage.json",
+  "v028_export_report": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/clean_embedding_export_report.json",
+  "apisem_split_report": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/APISem_global_split_report.json",
+  "task1_samples": "/data/chaoni/mjy/resym_exp/validation_runs/blocksem_subset20_v7_1_0/seraph_task1_v7_3_0/all/samples",
+  "strict_gold": "/data/chaoni/mjy/resym_exp/validation_runs/blocksem_subset20_v7_1_0/gold_eval_v7_1_3/mapped_strict_gold.jsonl",
+  "clean_alignment_checkpoint": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/clean_alignment_checkpoint.pt",
+  "clean_embedding_path": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/node_embeddings_clean.pt",
+  "clean_embedding_index": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/node_embedding_index_clean.json",
+  "clean_feature_schema": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/clean_feature_schema_coverage_only.json",
+  "clean_feature_vocab": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/clean_feature_vocab_coverage_only.json",
+  "expected_clean_artifact_sha256": {
+    "checkpoint": "ad9f1ce2a7f906ffc70e8e835c4dabcc51160a9ea18a1eb7fa403cbb4a4dd1db",
+    "embedding": "8345cc76a9219252c5fa22e172c71a19dc046ba7ac793598d87b4a83db7f1e2d",
+    "index": "67fd327538d88d9adcdc9df528151e7aeac09278cf53b9c9d68185feccefd76b",
+    "schema": "f62887822d98b7ac4acb5a67c7b6b92c488200b18fb42a50f5a07c75718d36dc",
+    "vocab": "5e700188dfc2633ca5c16ee45c510aa20027d43856500b5f7b05e35123f8e46a"
+  },
+  "expected_clean_embedding_shape": [39793, 64],
+  "expected_clean_index_entries": 39793,
+  "llm": {
+    "model_dir": "/data/chaoni/mjy/DeepSeek-Coder-6.7B-Base",
+    "stage1_adapter": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/stage1_clean_v0_1_5/contrastive/adapter",
+    "expected_stage1_adapter_sha256": "10c3de2a1f645c8451b3f3723279984e9dd27f7cb1dcac56789a183080c5173d",
+    "source_manifest": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_4_module_aware/joint_manifest.jsonl",
+    "instruction_mapping": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_4_module_aware/instruction_mapping_compact.jsonl",
+    "hidden_dim": 4096,
+    "max_length": 512,
+    "function_pooling": "attention_mask_mean_last_hidden",
+    "instruction_pooling": "span_centered_target_token_mean_last_hidden",
+    "base_frozen": true,
+    "stage1_adapter_frozen": true,
+    "stage2_lora_tuning": false,
+    "representation_policy_frozen_before_dev": true,
+    "type_strategy_rationale": "predeclared_instruction_residual_not_selected_per_query_or_from_v0_2_9_DEV",
+    "instruction_fallback": "symbolic_only_when_fixed_mapping_contract_marks_instruction_unusable"
+  },
+  "arms": {
+    "symbolic_only_clean": {
+      "enabled": true,
+      "representation": "clean_h_sym_only"
+    },
+    "unified_llm_gate_clean": {
+      "enabled": true,
+      "representation": "shared_projection_and_gate",
+      "context_by_module": {
+        "TypeSem": "function_level",
+        "InterfaceSem": "function_level",
+        "LayoutSem": "function_level",
+        "APISem": "function_level"
+      }
+    },
+    "module_aware_clean": {
+      "enabled": true,
+      "representation": "module_specific_projection_gate_and_head",
+      "context_by_module": {
+        "TypeSem": "instruction_level_residual",
+        "InterfaceSem": "function_level_gate",
+        "LayoutSem": "instruction_level_gate",
+        "APISem": "function_level_gate"
+      }
+    }
+  },
+  "fixed_seeds": [1337, 3407, 20260929],
+  "expected_candidate_order_sha256": "d8110639040f86c4b890ba108510d8a99926028840ff4ced1fec25eb375ef1f8",
+  "stage1_clean_status": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/stage1_clean_v0_1_5/v0_1_5_final_status.json",
+  "stage1_clean_training_report": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/stage1_clean_v0_1_5/contrastive/training_report.json",
+  "compromised_test_v1_registry": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/stage1_clean_v0_1_5/COMPROMISED_TEST_V1.json",
+  "contamination_registry": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/stage1_clean_v0_1_5/CONTAMINATION_REGISTRY.json",
+  "module_selection_rule": {
+    "name": "PREDECLARED_LEXICOGRAPHIC_DEV_MEAN_STABILITY_V2",
+    "order": ["higher_mean_R@1", "lower_std_population_R@1", "higher_mean_MRR", "fixed_arm_order"],
+    "fixed_arm_order": ["symbolic_only_clean", "unified_llm_gate_clean", "module_aware_clean"],
+    "tie_tolerance": 1e-12,
+    "apisem_excluded_from_architecture_selection": true
+  },
+  "training_budget": {
+    "epochs": 3,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "candidate_temperature": 0.2,
+    "align_weight": 0.1,
+    "bridge_dim": 256,
+    "gradient_clip": 5.0,
+    "budget_policy": "identical_train_records_epochs_batch_size_optimizer_lr_temperature_for_all_arms_and_seeds"
+  },
+  "enabled_modules": ["TypeSem", "InterfaceSem", "LayoutSem"],
+  "apisem_learned": {
+    "implemented": true,
+    "enabled": true,
+    "classification": "LOW_SAMPLE_AUXILIARY_MODULE",
+    "train_expected": 64,
+    "dev_expected": 8,
+    "calibration_sealed": 4,
+    "test_sealed": 4,
+    "enablement_requires_train_dev_query_candidate_gold_coverage": 1.0,
+    "hard_seed": "ENABLED_SEPARATE_FROM_LEARNED_HEAD",
+    "ablation_modes": ["hard_seed_only", "hard_seed_plus_learned_APISem"]
+  },
+  "constraint_loss": {
+    "enabled": false,
+    "status": "NO_EXECUTABLE_CONSTRAINT_SUPERVISION",
+    "weight": 0.0
+  },
+  "candidate_protocol": {
+    "source": "v0_2_7_clean_deterministic_candidate_permutation",
+    "position_balanced": true,
+    "permutation_robustness_per_query": 5,
+    "baselines": ["always_first", "majority_position", "position_only_by_module_and_candidate_count"],
+    "position_artifact_block_threshold_R1": 0.5,
+    "permutation_min_top1_identity_agreement": 0.99,
+    "permutation_min_rank_correlation": 0.99,
+    "permutation_max_R1_variance": 0.001
+  },
+  "coverage_gate": {
+    "roles": ["TRAIN", "DEV"],
+    "modules": ["TypeSem", "InterfaceSem", "LayoutSem", "APISem"],
+    "minimum_query_coverage": 1.0,
+    "minimum_candidate_coverage": 1.0,
+    "minimum_gold_coverage": 1.0
+  },
+  "execution": {
+    "authorized_after_v028_handoff": true,
+    "test_evaluation_count_required": 0,
+    "calibration_evaluation_count_required": 0,
+    "overwrite_existing_runs": false
+  }
+}

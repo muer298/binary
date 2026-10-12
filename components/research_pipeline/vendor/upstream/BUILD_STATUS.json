@@ -1,0 +1,54 @@
+{
+  "python_compile_pass": true,
+  "compile": [
+    {
+      "file": "01_modified_upstream/02_extract_nodes_edges_blocksem_v7.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "01_modified_upstream/inspect_blocksem_v7_contract.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "01_modified_upstream/over_v11_typesem_plus_paramflow_callfix_blocksem_v7.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "01_modified_upstream/run_usg_headless_stream_v2.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "02_cfi_provenance/build_selection_provenance_v7.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "02_cfi_provenance/extract_cfi_intervals_v7.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "03_selection_validation/build_selection_validation_v7.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "03_selection_validation/verify_selection_validation_v7.py",
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "file": "tests/test_selection_builder.py",
+      "returncode": 0,
+      "stderr": ""
+    }
+  ],
+  "unit_tests_rc": 0,
+  "unit_tests_stdout": "",
+  "unit_tests_stderr": "test_selection_gate (test_selection_builder.T.test_selection_gate) ... /mnt/data/research2_blocksem_upstream_selection_v7_0/tests/test_selection_builder.py:15: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpoypt96yy/out/selection_gate.json' mode='r' encoding='UTF-8'>\n  gate=json.load(open(o/'selection_gate.json'))\nResourceWarning: Enable tracemalloc to get the object allocation traceback\nok\n\n----------------------------------------------------------------------\nRan 1 test in 0.694s\n\nOK\n",
+  "ghidra_runtime_note": "Ghidra APIs are not installed in this sandbox; run commands/00_smoke_upstream.sh on the server before full run."
+}

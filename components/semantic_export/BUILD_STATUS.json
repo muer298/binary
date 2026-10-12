@@ -1,0 +1,19 @@
+{
+  "schema": "seraph_task1_v7_3_0_build",
+  "python_runtime": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "tests_run": 39,
+  "tests_passed": 38,
+  "tests_skipped": 1,
+  "tests_failed": 0,
+  "python_compile_pass": true,
+  "python38_AST_syntax_pass": true,
+  "shell_syntax_pass": true,
+  "test_description": "20 contract tests, 18 integration tests including actual gcc-built/stripped ELF inputs, explicitly MOCKED Ghidra exporter, loopback HTTP MOCK service, detached launcher; 1 optional actual-Ghidra runtime test skipped",
+  "actual_Ghidra_runtime_tested": false,
+  "real_LLM_provider_tested": false,
+  "full_20_server_run_tested": false,
+  "gated_embedding_training_implemented": false,
+  "calibrated_closed_loop_fusion_implemented": false,
+  "Gold_used_in_generation": false,
+  "warning": "38 tests passed does not establish real Ghidra API support. Pilot is required. Python3.8 checked for syntax, not runtime in this container."
+}

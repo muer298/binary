@@ -1,0 +1,54 @@
+{
+  "schema": "seraph_final_test_v2_build_config_v1",
+  "output_root": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/final_test_v2_build",
+  "raw_root": "/data/chaoni/mjy/source_recovery/resym_rawdata/ReSym_rawdata",
+  "metadata": "/data/chaoni/mjy/source_recovery/resym_rawdata/ReSym_rawdata/metadata.json",
+  "registry": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/final_test_v2_build/ALL_USED_PROJECTS_AND_BINARIES.json",
+  "research2_package": "/data/chaoni/mjy/resym_exp/packages/research2_symgen_external_validation_final_v1",
+  "ghidra_home": "/data/chaoni/mjy/resym_exp/runtime/ghidra_12.0.4_heap32g_fullroot_v1",
+  "java_home": "/data/chaoni/mjy/resym_exp/jdk-21.0.11",
+  "clean_package": "/data/chaoni/mjy/resym_exp/packages/seraph_clean_hsym_v0_2_8",
+  "feature_allowlist": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/joint_v0_2_7_global_split/HSYM_FEATURE_ALLOWLIST.json",
+  "model_dir": "/data/chaoni/mjy/DeepSeek-Coder-6.7B-Base",
+  "selection_policy": "four_distinct_public_C_projects_one_largest_DWARF_x86_64_binary_per_project_without_model_scores",
+  "source_snapshot_time_utc": "2026-10-02T17:55:03Z",
+  "candidates": [
+    {
+      "repo": "Tarsnap/spiped",
+      "binary_id": "d8b983260aeaccb3e35dad38fbf39307e867d71d8b642f07c9773e4cb973cd11",
+      "source_url": "https://github.com/Tarsnap/spiped.git",
+      "source_commit": "352d077a12bfdcbd75c711130e5944d12c578be0",
+      "source_tree": "de5ccc1d96a81d98cff6368ee5efcc1072d1a26d"
+    },
+    {
+      "repo": "radareorg/sdb",
+      "binary_id": "345e2c68c25dad6a084a3c53539a7cb8620e3db073e7f9dfc62b69896d2a1c26",
+      "source_url": "https://github.com/radareorg/sdb.git",
+      "source_commit": "1a6fe8e5a7973b5c3492c7751bea27a3ff185a33",
+      "source_tree": "3cba9c193f34a7d7dc0ebb7b85179ba6908c1ca2"
+    },
+    {
+      "repo": "jech/babeld",
+      "binary_id": "5ce3ce72017d74983322bf26a3d6c68e0e0c52b9c3fde915bcce1e2ec01fbb80",
+      "source_url": "https://github.com/jech/babeld.git",
+      "source_commit": "5329cd89cd3dfe74b18f19d3a64934324687866a",
+      "source_tree": "3e000f63224c40cab00b49139a87b2b98802737f"
+    },
+    {
+      "repo": "michaelforney/cproc",
+      "binary_id": "8ba4c7dda28d3518568e05687d070e1310dccdc533a65b3e7c08182148068165",
+      "source_url": "https://github.com/michaelforney/cproc.git",
+      "source_commit": "d1c53ddf56571573a7025324c8dd5c6d547a4d1f",
+      "source_tree": "820f526e40c45552cd3c2c15433be07240d1a943"
+    }
+  ],
+  "frozen_clean_hsym_checkpoint": "/data/chaoni/mjy/resym_exp/training_runs/seraph_local/clean_hsym_v0_2_8/clean_alignment_checkpoint.pt",
+  "final_stage2_checkpoint_load_allowed": false,
+  "stage1_training_allowed": false,
+  "hsym_training_allowed": false,
+  "stage2_training_allowed": false,
+  "ssq_allowed": false,
+  "calibration_allowed": false,
+  "test_prediction_allowed": false,
+  "performance_evaluation_allowed": false
+}
