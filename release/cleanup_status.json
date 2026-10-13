@@ -1,0 +1,664 @@
+{
+  "status": "COMPLETE",
+  "started_epoch": 1791857724.7138255,
+  "archive": "/data/chaoni/mjy_code_archive_20261012",
+  "moves": [
+    {
+      "from": "/data/chaoni/mjy/resym_exp/02b_recover_api_provenance_sidecar_v5_3.py",
+      "to": "/data/chaoni/mjy_code_archive_20261012/02b_recover_api_provenance_sidecar_v5_3.py",
+      "tree_sha256": "7715fc7fc7740a7ab2f6b8a2aa8a1528fd1c82885d1738aa006a60a60770a71e"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/06_export_node_index.py",
+      "to": "/data/chaoni/mjy_code_archive_20261012/06_export_node_index.py",
+      "tree_sha256": "130cac4bda26aee6865bc48cf5ba2112098b8835e03c3a84adb807aa3e8211b2"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/06_export_node_index.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/06_export_node_index.zip",
+      "tree_sha256": "4b2db7dee65cbb142f52907176d6521320e9d0aac56b55fca8fbdef11b360976"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/06_export_node_index_final.py",
+      "to": "/data/chaoni/mjy_code_archive_20261012/06_export_node_index_final.py",
+      "tree_sha256": "425dda062f29c2e10c7eca0625998ff38039d4761ec37c2ef137b990ef37f74d"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/06_export_node_index_final.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/06_export_node_index_final.zip",
+      "tree_sha256": "b75eb0a44d3dfc616af2b2c918fdb34b57e97aac756f02511fbe8369a69ae8ae"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/07_export_embeddings_final_v2.py",
+      "to": "/data/chaoni/mjy_code_archive_20261012/07_export_embeddings_final_v2.py",
+      "tree_sha256": "554cae1cfba15a8405620dccce81204e092a376727eb4717a719f83be2a3fe14"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/07_export_embeddings_final_v2.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/07_export_embeddings_final_v2.zip",
+      "tree_sha256": "4e3deef8686296bbd0eef7926d6f5c1a337fada61850fb836ce674ce20ee6b69"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/07_export_embeddings_final_v3.py",
+      "to": "/data/chaoni/mjy_code_archive_20261012/07_export_embeddings_final_v3.py",
+      "tree_sha256": "4c85787c42631975f545b0acb537d684ffe74ad62a7e376725c4dcec7bae6dcb"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/07_export_embeddings_final_v3.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/07_export_embeddings_final_v3.zip",
+      "tree_sha256": "62412811dc98cdb9b8a80d47c6f6c8c8d92fa3ee944b3bac30c661b228867a61"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/07_export_embeddings_final_v4.py",
+      "to": "/data/chaoni/mjy_code_archive_20261012/07_export_embeddings_final_v4.py",
+      "tree_sha256": "4e51e2b008d1a7e93e484bef0444b4456d7187b72fe93410c7e1da08a94fa84f"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/07_export_embeddings_final_v4.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/07_export_embeddings_final_v4.zip",
+      "tree_sha256": "3cea703a04823b50efc4180a631e02e24d96ac7b57efa7a31c7358bb156594b9"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/07_export_embeddings_final_v5.py",
+      "to": "/data/chaoni/mjy_code_archive_20261012/07_export_embeddings_final_v5.py",
+      "tree_sha256": "b2137f9cd7b42f5a695990fe8fd57ac0db3c819b9bd55764960ccac891a713c0"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/07_export_embeddings_final_v5.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/07_export_embeddings_final_v5.zip",
+      "tree_sha256": "c6e46d9cc58443b09adaf06a53f68df96e1e0592fa294c046e67992c0d4644e3"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/apply_overrides_v2_node_map.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/apply_overrides_v2_node_map.zip",
+      "tree_sha256": "24fd8f9f89f37755106b497371877159e8551ea539b15d0cee79b0651e612617"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/apta_20_21_compat_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/apta_20_21_compat_scripts.zip",
+      "tree_sha256": "9ab99ee5eaa82cffbe980b837412c154e3222ddbe18d2f6716a35d0aec2c732b"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/apta_aware_moe_v2.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/apta_aware_moe_v2.zip",
+      "tree_sha256": "66419886d95e342ca4606477ac808d544c4c8bea116d993def4ea74bae1d6181"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/apta_aware_moe_v2_1.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/apta_aware_moe_v2_1.zip",
+      "tree_sha256": "23bff047f23c38e65bf03e28ac01780ff85a9d1d62449eec8b6e91dce65805e5"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/apta_eager_api_v2.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/apta_eager_api_v2.zip",
+      "tree_sha256": "76589d9eb9dfdd5324685af122dcb6d1413394caa082bb71b5dc719f1e59c44d"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/candidate_metadata_v8_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/candidate_metadata_v8_bundle.zip",
+      "tree_sha256": "4139d055d8c1f3fe4f3bd45b3512d4992005ce53588fd7e0085fefdf41f7d94f"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/candidate_pool_v7_full_bank_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/candidate_pool_v7_full_bank_bundle.zip",
+      "tree_sha256": "1d66a10ccdb6d256d33e5ceb245577f222344ab8393880d1c1122b7dfdcb67b9"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/clean_alignment_v10_1_structural_bridge_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/clean_alignment_v10_1_structural_bridge_bundle.zip",
+      "tree_sha256": "31ccda7131fe88e694a119eead83799b37fdfed2d4de7a520385b67f222e5626"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/clean_alignment_v10_structure_cap_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/clean_alignment_v10_structure_cap_bundle.zip",
+      "tree_sha256": "1ee511c6faedc595d3a4303befde29df22a063c765ea50b8d7e2e0d41cf03c8f"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/clean_alignment_v11_usg_structure_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/clean_alignment_v11_usg_structure_bundle.zip",
+      "tree_sha256": "c7f7ff63b9d57543a33c03f67ded3f2aad7688c00dec3b2df2617b1d47c821d3"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/clean_alignment_v12_fixed_offset_semantic_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/clean_alignment_v12_fixed_offset_semantic_bundle.zip",
+      "tree_sha256": "3115b6a52b81d6b0ae876dcc2f0f1cf315582d94ee6ed2826fca40247f0aaac4"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/clean_alignment_v9_1_complete_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/clean_alignment_v9_1_complete_bundle.zip",
+      "tree_sha256": "e4ddebe4bad41eb5cc73418c89d103852bb73c74b78491f457ad7ae7971ff0ca"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/clean_alignment_v9_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/clean_alignment_v9_bundle.zip",
+      "tree_sha256": "c3f1104eb1c85361b809b707195db09d9c93773205c8c8d963e4a970adfea274"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/clean_structural_fullpool_v10_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/clean_structural_fullpool_v10_bundle.zip",
+      "tree_sha256": "356fff5052e233d942d04b8f57331af68320422b5523f0f862383c65fbe9701c"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/complete_strong_relation_v6_fixed_flat_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/complete_strong_relation_v6_fixed_flat_bundle.zip",
+      "tree_sha256": "5dc5f70c1a42d941a7d4d96f42670ff21597cd9f9862339fbe6aa4fbc5bc088c"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/deploy_backups",
+      "to": "/data/chaoni/mjy_code_archive_20261012/deploy_backups",
+      "tree_sha256": "22e705e06a14b8a041e62ff4ca3412cb659280e157e7a3db2f77a7b49b3868c7"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/deprecated_apta_scripts_2026-07-08_033652",
+      "to": "/data/chaoni/mjy_code_archive_20261012/deprecated_apta_scripts_2026-07-08_033652",
+      "tree_sha256": "1020ca69ab160a427d26b311ff4ba7dd1fa9c012a9086a07fa0f3dd0617e9e84"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/deref_chain_field_fix_221_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/deref_chain_field_fix_221_scripts.zip",
+      "tree_sha256": "c41c5dd6cff19bad1b2a35bc9cf99dc0154ddabfa9ef66cdc3a6e94c9b8db320"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/dwarf_eval_progress_wrapper.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/dwarf_eval_progress_wrapper.zip",
+      "tree_sha256": "8da52be5d4a398604e4bacb277aeba1517ff8a49506c7741ec74fc439d363104"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/exact_shared_softheads_complete_strong_relation_v6_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/exact_shared_softheads_complete_strong_relation_v6_bundle.zip",
+      "tree_sha256": "4649ce25f0100daf761b16c2b4cf25ac2d1e00fb294aded67455a4402eebf38b"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/explicit_typed_features_221_v4_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/explicit_typed_features_221_v4_scripts.zip",
+      "tree_sha256": "8b70e3566fb49445e3b3aaa3b3c3800867c48f7268b457ceeda8bc8fe3c2b9f0"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/layout_gate_v6_7_5_patch.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/layout_gate_v6_7_5_patch.zip",
+      "tree_sha256": "d233b5edfe366ce793ee3622bf316bcd073fb6b71e36fb6194f8091cd240ac3e"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/nt_2_complete_code_v6_5_conflict_resolver_20260819bash 00_项目级入口",
+      "to": "/data/chaoni/mjy_code_archive_20261012/nt_2_complete_code_v6_5_conflict_resolver_20260819bash 00_项目级入口",
+      "tree_sha256": "91c99f8e9287e96beb12e73d846b59aef3db2d083d9558361ba5ccf86712ba49"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/packages",
+      "to": "/data/chaoni/mjy_code_archive_20261012/packages",
+      "tree_sha256": "7fb828f4aeccd827cd8b08df0569058f3e9272bf885f2482f81d786385d3adf8"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/patches",
+      "to": "/data/chaoni/mjy_code_archive_20261012/patches",
+      "tree_sha256": "06178fd41be2905ff9319c169700e62f126bfc4991d77a9911b6190d8755bbb3"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/recovery",
+      "to": "/data/chaoni/mjy_code_archive_20261012/recovery",
+      "tree_sha256": "8e92742dfa9ff8f1c04a97847dff0e91ce89e2e7ddb66851fdd92e039bd40503"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/relation_aware_neighborhoods_221_v6_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/relation_aware_neighborhoods_221_v6_scripts.zip",
+      "tree_sha256": "9c4ab20237a06b96df69a86f9c2f887190339da09ca5b56fc98609a57b5875c8"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research2_layoutsem_v6_7_2_complete_20260827",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research2_layoutsem_v6_7_2_complete_20260827",
+      "tree_sha256": "a1041918fe029f890939b594588eaa44366b921db5fe84d5236069181a2dd5b1"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research2_layoutsem_v6_7_3_evidence_bridge_20260827",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research2_layoutsem_v6_7_3_evidence_bridge_20260827",
+      "tree_sha256": "28b9989f2a331730e3a51fa9917b5d5b437d4b31bcac3040bf8534b5b839dd44"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research2_layoutsem_v6_7_4_controlled_source_20260828",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research2_layoutsem_v6_7_4_controlled_source_20260828",
+      "tree_sha256": "a282fc8b74a9e6700e85e89cb33338d5b62e469f0b8260c187527877aca3a3c2"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research2_symgen_new_server_validation_v6_7_4_20260902",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research2_symgen_new_server_validation_v6_7_4_20260902",
+      "tree_sha256": "219451096ba53e548a36395127d2ad0be6f0c2a1c400fa0e4e87b762d5fc7683"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research2_v6_7_1_223_confirmation_policy_handoff_hotfix_20260824",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research2_v6_7_1_223_confirmation_policy_handoff_hotfix_20260824",
+      "tree_sha256": "0080c4cca421ed0961c16fd290a51effaa7c69a91e9f9bb54638317e954db343"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research2_v6_7_1_223_confirmation_policy_handoff_hotfix_20260824.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research2_v6_7_1_223_confirmation_policy_handoff_hotfix_20260824.zip",
+      "tree_sha256": "9d169dc445186e343783b9f93e682158f77f52361c568d9f83122778bb54dd05"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research_content_2_complete_code_v6_5_conflict_resolver_20260819",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research_content_2_complete_code_v6_5_conflict_resolver_20260819",
+      "tree_sha256": "623ae5e46793346c1a00f698b440931ba4919bb7aec9a8d0e85897e9ff24a8e1"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research_content_2_complete_code_v6_5_conflict_resolver_20260819.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research_content_2_complete_code_v6_5_conflict_resolver_20260819.zip",
+      "tree_sha256": "3f6f354007c0805d0e7980ac86c285bcbc2e3f90b41d4953d3ccbdd03b890d76"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research_content_2_complete_code_v6_6_document_compliance_20260819",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research_content_2_complete_code_v6_6_document_compliance_20260819",
+      "tree_sha256": "518094cb79753b2f658ebfe57b0c2cdb1cac59fd87f481c52f3a47960ec8c1de"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research_content_2_complete_code_v6_6_document_compliance_20260819.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research_content_2_complete_code_v6_6_document_compliance_20260819.zip",
+      "tree_sha256": "d6b4b55c3f30e27d1b1865e601ada2e902b07ac92d2bfe35ef072cfb1a29576a"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research_content_2_complete_code_v6_7_validation_guarded_20260824",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research_content_2_complete_code_v6_7_validation_guarded_20260824",
+      "tree_sha256": "60cdec676ac69e6291e047bc9c8042d1b0b744c3867dd7933b79266958d9ce9a"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/research_content_2_complete_code_v6_7_validation_guarded_20260824.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/research_content_2_complete_code_v6_7_validation_guarded_20260824.zip",
+      "tree_sha256": "240904bfbbd12400e93734527f065561c362db0c3fe599f1a8f1a836af2ebb64"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/run_missing910_recovery_v5_4_1.sh",
+      "to": "/data/chaoni/mjy_code_archive_20261012/run_missing910_recovery_v5_4_1.sh",
+      "tree_sha256": "667d4b839edc0203c15d2b48acc34634e415fe30ab2a86d2a8631d5d675bfb22"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/run_symgen_formal40_all_v1.sh",
+      "to": "/data/chaoni/mjy_code_archive_20261012/run_symgen_formal40_all_v1.sh",
+      "tree_sha256": "dead51c309103e26953fc4b8562d5bc76c5606f9a50aa2b22cd30e2c8dd06d5d"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/run_symgen_stratified20_all_v1.sh",
+      "to": "/data/chaoni/mjy_code_archive_20261012/run_symgen_stratified20_all_v1.sh",
+      "tree_sha256": "e7bc4a712d78020ca05ea0cd191beff193b73bd7f391f6cc3e191243014be3be"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/scripts",
+      "to": "/data/chaoni/mjy_code_archive_20261012/scripts",
+      "tree_sha256": "6386e876748163e42b2b58ad27644301214cda30656bb1371086f086d3501f2a"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/shared_softheads_global_221_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/shared_softheads_global_221_scripts.zip",
+      "tree_sha256": "95db57f6618932f49d2ddc36c2f28b017730138224339cfaaa9f9dd5eb47f867"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/shared_softheads_global_221_v2_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/shared_softheads_global_221_v2_scripts.zip",
+      "tree_sha256": "83da28f620d21971e98dd060f30f8526cc7eb40bb02e5ca4d9f857678b90ad2e"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/shared_softheads_local_candidates_221_v3_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/shared_softheads_local_candidates_221_v3_scripts.zip",
+      "tree_sha256": "de653baff4692db53f8338c71f5817b5d40eb5550bd0e7e461c4f560515517ac"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/structured_alignment_221_v5_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/structured_alignment_221_v5_scripts.zip",
+      "tree_sha256": "202b7b3f1e15627bf088465022cfd3c03d1930bbf33c7a576416435d2493659d"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/symgen_gold_address_fix_v2.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/symgen_gold_address_fix_v2.zip",
+      "tree_sha256": "74bc835f48beb9046289324dff20cac1ef74b081e18bb42d7d5d196ef949d48d"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_221_222_full_pipeline_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_221_222_full_pipeline_scripts.zip",
+      "tree_sha256": "16765e83e04d414db8b844dc376ab7e3987cd08a7f123967c7553b6d83152b42"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_222_v5_3",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_222_v5_3",
+      "tree_sha256": "b8cc948296caeb57e8bdb2f9160e9fd0f946b42197bdb2372b40bd29807cbf26"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_222_v5_3_1",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_222_v5_3_1",
+      "tree_sha256": "e8be68a5975116831d321279f16a0d2f637ea7728de410d288fec594b6ba51fe"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_222_v5_3_1_complete.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_222_v5_3_1_complete.zip",
+      "tree_sha256": "3868a0e3cbb69d65310eb9f00adba8b5172b5fb1874204868d774b7bc4f17775"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_222_v5_3_2_provenance_fix",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_222_v5_3_2_provenance_fix",
+      "tree_sha256": "75edb1a692a5ef57b432d9d5ca5206f85f33403e5cacec95c165f305dad6f18e"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_222_v5_3_2_provenance_fix.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_222_v5_3_2_provenance_fix.zip",
+      "tree_sha256": "6a435d3d7d615d1e00f826f951681017a48a0d9518a430ac659e79553d2ae0a1"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_222_v5_3_3_lineage_sidecar",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_222_v5_3_3_lineage_sidecar",
+      "tree_sha256": "a7c946d7cee455e0a1c4991e15415e9f6fdceb21c17806988964f0171b4b05cd"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_222_v5_3_3_lineage_sidecar.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_222_v5_3_3_lineage_sidecar.zip",
+      "tree_sha256": "0e49ba859bb7b80d58f4223022b0cbbd1326e4e12e3f9b2042814443c8c5d85e"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_222_v5_3_4_gold_calibrated",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_222_v5_3_4_gold_calibrated",
+      "tree_sha256": "a036aa3f6c316b81aa0b931f4eb9241af7df2feedc75fbec331641d23856c2f8"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_222_v5_3_4_gold_calibrated.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_222_v5_3_4_gold_calibrated.zip",
+      "tree_sha256": "3ba53223f612dcb8f08b1723e4e8ee18d6b4dec5669873cd68fe85ea9d604ccd"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_222_v5_3_complete.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_222_v5_3_complete.zip",
+      "tree_sha256": "fba634eaae780a1e925b008495abe5767c3051348fbe22d893dd91be9ffa298c"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_complete_final.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_complete_final.zip",
+      "tree_sha256": "bd5da036c19c95c69630519165e32f0750234c54ac52b7a09e8c4d8ee4805a84"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_fix_v2",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_fix_v2",
+      "tree_sha256": "ab3b65f921d71ffddc7bf25ea24e2472014e3e93194f006ac3c7658adcf79a47"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_fix_v2.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_fix_v2.zip",
+      "tree_sha256": "1165823aebbff11799eb965032d6e8d8edfe7aad68efc7116ff57ddc0529b22d"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_fix_v3",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_fix_v3",
+      "tree_sha256": "33d6bdcea2e8fdccbb41201f9f8e12c1d32cfd6a58217f330064c96f102f3da1"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_fix_v3_final.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_fix_v3_final.zip",
+      "tree_sha256": "fd215a4a907b7b41ca74c37aa9e3f25b4c565dc45b2a4b69a357973bb4bae551"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_modules_v1",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_modules_v1",
+      "tree_sha256": "4345422571c350575c9a66ed854e9966018ad09072e999a7b4cc21fb14d062ac"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_modules_v1.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_modules_v1.zip",
+      "tree_sha256": "669f34285d455f1202f3f574499f8482ca924fe19d06603d5ab112688fb02065"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v4_metadata_scoring",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v4_metadata_scoring",
+      "tree_sha256": "1f4c7d13e5b3ec9665eb5e8a3c0aca6f3939730927db894d6fb04d9944e6d11d"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v4_metadata_scoring.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v4_metadata_scoring.zip",
+      "tree_sha256": "2e754bb15ea6c596bc5d1031b0a8ee03ffbf893a373a0a6890128ae347775587"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v4_typeinfer_hotfix",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v4_typeinfer_hotfix",
+      "tree_sha256": "72d81208ca68e9b83706349c491efd541152acf13f45ba5ad5a67dff3b5b5258"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v4_typeinfer_hotfix.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v4_typeinfer_hotfix.zip",
+      "tree_sha256": "50127e32d84552d522af1fe8536e3b471087d01395535890b760ee01e2496c0e"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_1_safe",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_1_safe",
+      "tree_sha256": "2c0e1879d6a921bdfdd5ea492cf6e7f3a7c624f10c48be19b21064c25b45bc6d"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_1_safe.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_1_safe.zip",
+      "tree_sha256": "ec95e6ecedf63c71636a818626c33fe1aaa7a8e33ba89032711d22a2005e870e"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_2_route_recovery",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_2_route_recovery",
+      "tree_sha256": "897da45e07f49550456290e6ef628fce2b6dfa98837c8dbd6cc7e9fb6424796b"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_2_route_recovery.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_2_route_recovery.zip",
+      "tree_sha256": "11fae4e3edda39fd006edca64d4a76e252a78b8f613a66e8ce93cecb0dac483a"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_3_complete",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_3_complete",
+      "tree_sha256": "c8df34504433029c28525cdb68d9faa1bada853e5d33e4d479286d508f32043d"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_3_complete.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_3_complete.zip",
+      "tree_sha256": "8b37198abbd4222af88638ab7fba97b19d5fd20349457d089e88f9b7bfcb22f8"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_3_metrics_r2_20260813",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_3_metrics_r2_20260813",
+      "tree_sha256": "76aeb007f5966248654ff1c7cfe58b802c38993b5278e3e8b37e62d7098785bc"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_3_metrics_r2_20260813.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_3_metrics_r2_20260813.zip",
+      "tree_sha256": "9f9cb900310e84a408e50cbecf9a7beae638adbca8096a2d026f5efa292ef339"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_calibrated",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_calibrated",
+      "tree_sha256": "8ccbfdebda61712ed2013a1315cdbb12ea875bd591f160e112362e60a9d7733f"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_calibrated.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_calibrated.zip",
+      "tree_sha256": "2e203ae5bbef7c2af8693c634af32e55acb477ddbaae87705a34cd25ab725105"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_probability_hotfix",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_probability_hotfix",
+      "tree_sha256": "e2b1d6f7f89956510b5ee56f44b0e484678f7cecd8b29ea612a9f11b35a5b006"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_223_v5_probability_hotfix.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_223_v5_probability_hotfix.zip",
+      "tree_sha256": "06083edd883b358b1b09251021b5829cd750bd1e85d6ba9f11b602b4f0b76eac"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_anchor_fix.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_anchor_fix.zip",
+      "tree_sha256": "4f08b869386819ad14f6ef14aa11a133030a46c5346cac30fd6b4d567bc41177"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_api_head_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_api_head_scripts.zip",
+      "tree_sha256": "cb54b1aada48ccce04db3d4d1ddc6e273003077ef1e63fbeb6727be7604d50bc"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_apply_overrides.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_apply_overrides.zip",
+      "tree_sha256": "58099865d7f1ad27fe0f3acd5486b22db47c371ee62f739c09dcdacde1238d2c"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_binding_records_fixed.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_binding_records_fixed.zip",
+      "tree_sha256": "ba8d8b22320c55b671b52af028300c21f0a6351c11bd3ac6d8be3db347508531"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_candidate_fix_v2",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_candidate_fix_v2",
+      "tree_sha256": "b43928f44733baea05e00aa0f2d57d03dc8b171d1a197cc3017260b1de29cd51"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_candidate_fix_v2.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_candidate_fix_v2.zip",
+      "tree_sha256": "9bdb773697ab8a93c6d480c2df950383e43716e440def4487458a39be550232f"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_constraint_resolution.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_constraint_resolution.zip",
+      "tree_sha256": "98f9ce434d3221e25fdd2fb9a33aa8fe8485dec310c8ccad3d5dc322732a886f"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_day1_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_day1_scripts.zip",
+      "tree_sha256": "f693e4c3ffae70fdce4a518d6da69e0a0330a405ab75dec11b19e8998ad292c2"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_day2_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_day2_scripts.zip",
+      "tree_sha256": "6c08ce5d1b18f5b0a6a1a38182990731d9cc7893e8e4fc7445ffae702720c719"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_day3_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_day3_scripts.zip",
+      "tree_sha256": "62442ee05029fd3ed2ba6eefb0044b9cb79cd322f3cca39397d46bc63bff7236"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_ev_constraint_training.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_ev_constraint_training.zip",
+      "tree_sha256": "0a7656128790751aef29784f4a54e846bfce86572b7420a7c5391d344603f1b8"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_exp/src",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_exp/src",
+      "tree_sha256": "7f01e49112ab1577c66762371ac68133aa022d555d067e6e4b83613a5a37da56"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_exp_v11/src",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_exp_v11/src",
+      "tree_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_fix_api_evidencestub.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_fix_api_evidencestub.zip",
+      "tree_sha256": "7c98e499c66209a103a3b270090aa4680a096f43e6eeb00038ac7d8e4ccbb9a0"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_gold_apisem_callsite_oracle_v5_4_2_20260823",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_gold_apisem_callsite_oracle_v5_4_2_20260823",
+      "tree_sha256": "47e75990f062eb8d6b100f745c00d124d8ee63afda647d9b2b2ff65a070bf917"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_gold_apisem_callsite_oracle_v5_4_2_20260823.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_gold_apisem_callsite_oracle_v5_4_2_20260823.zip",
+      "tree_sha256": "b3971b7f50883d091006bbd4387e7b868444eb0f58fe00bbb4e9b7b5de774f34"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_hier_features.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_hier_features.zip",
+      "tree_sha256": "20b41df58cf622ace9b81901c8bbd9162d0ffcb0b49cc39bb7453c605144237f"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_large_scale_paramflow.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_large_scale_paramflow.zip",
+      "tree_sha256": "d0d6ce7daab8ca8d54e06a07ae7170dbc3dae5cc5b4ba29c330ab68c813405e4"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_missing910_recovery_v5_4_1",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_missing910_recovery_v5_4_1",
+      "tree_sha256": "6fa2e55629540bde2a3455e25f4c21b55b753b8c8d80a8e88de342e94782c0f9"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_missing910_recovery_v5_4_1.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_missing910_recovery_v5_4_1.zip",
+      "tree_sha256": "6269020ba4cf262689a1ccd830d99202e09b999f19acf0100027c2a4d9f3c1c5"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_paramflow_neighborhoods.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_paramflow_neighborhoods.zip",
+      "tree_sha256": "9190c2f4b367363291d941f9886efcfc738bf85e0f79876318b84d12e806e017"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_reasoning_09_12_final",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_reasoning_09_12_final",
+      "tree_sha256": "b595bf4db9f7595927b900a8a0b6356c3782d29a70cc5530f19f51022c4e4289"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_reasoning_09_12_final.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_reasoning_09_12_final.zip",
+      "tree_sha256": "ca3848532b26ecf41cdf40fa4631cdbb6370fca3ebc60fdcf47e9a1c00816176"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_reasoning_v1",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_reasoning_v1",
+      "tree_sha256": "33f42b9a474de58c74bdeca3b1ee29c6c9283808325cd86cfbaf3abf7b5a423e"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_reasoning_v1.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_reasoning_v1.zip",
+      "tree_sha256": "8575e95e233a59efa8bb51e88ae3c9a051afa7e14ad85e05e57700faf5b44e75"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_reasoning_v2",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_reasoning_v2",
+      "tree_sha256": "f24bb8dafbee42c25b13a89a25898034aa2c5539823ac1664b3c9582155d4df2"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_reasoning_v2.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_reasoning_v2.zip",
+      "tree_sha256": "3a5b67657b61327985d5fd144a55afaa61b64eb843038ba247e68ba856792569"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_reasoning_v2_final_ready",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_reasoning_v2_final_ready",
+      "tree_sha256": "cd7cf6fa6fdbd8845e2583006b55246267221209971a51c8d1502248f3db0b05"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_reasoning_v2_final_ready.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_reasoning_v2_final_ready.zip",
+      "tree_sha256": "e19cfa94c29cfa947ca54cc7f52e3a5c6e26a0b5f85c02dbb4dfff035452a6e3"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_src_backups",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_src_backups",
+      "tree_sha256": "112b8260329cd0b0e06cefe2eea4d3205fc0e8cbc8792ae48a42bb04638c9ca1"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_stage3_4_5_scripts.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_stage3_4_5_scripts.zip",
+      "tree_sha256": "bfb6c5448fbdc5b0fa5ea9ebcab080796a4cc12df9708151c1a1d9b02fc82eb5"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_stage3_full.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_stage3_full.zip",
+      "tree_sha256": "b90afc133e955c4d74e2558eaf5837ccb92b6b762cd411f526b199bce1c4e988"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/task2_stage5_full.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task2_stage5_full.zip",
+      "tree_sha256": "789a754a0cb5970a7ff93114a01b6b9b2b586d36bb8ecc8dca974907d79e3b4b"
+    },
+    {
+      "from": "/data/chaoni/mjy/resym_exp/v8_leakage_audit_bundle.zip",
+      "to": "/data/chaoni/mjy_code_archive_20261012/v8_leakage_audit_bundle.zip",
+      "tree_sha256": "3ae97b2a28b3ae2b735e7a75b05a8987eb5073c8e10d4e1c672bf4ffeb6a7caf"
+    }
+  ],
+  "links": [
+    {
+      "path": "/data/chaoni/mjy/resym_exp/packages",
+      "target": "/data/chaoni/mjy/binary/packages"
+    },
+    {
+      "path": "/data/chaoni/mjy/resym_exp/scripts",
+      "target": "/data/chaoni/mjy/binary/components/data_tools"
+    }
+  ],
+  "permanent_deletion": false,
+  "completed_epoch": 1791857724.8496366
+}

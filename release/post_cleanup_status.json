@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "source_integrity_and_compatibility": "PASSED",
+  "historical_targets_removed_from_active_tree": 129,
+  "own_temporary_copies_archived": [
+    {
+      "from": "/data/chaoni/mjy/binary_review_20261012",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task_staging_binary_review_20261012"
+    },
+    {
+      "from": "/data/chaoni/mjy/binary_upload_partial_20261012",
+      "to": "/data/chaoni/mjy_code_archive_20261012/task_staging_binary_upload_partial_20261012"
+    }
+  ],
+  "permanent_deletion": false
+}

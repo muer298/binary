@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "protected_directory_inode_and_mtime_unchanged": 17,
+  "v038_report_and_freeze_files_sha256_unchanged": {
+    "/data/chaoni/mjy/resym_exp/training_runs/seraph_task2/v0_3_8/TASK2_V0_3_8_REPORT.md": "3847b56e2d6b290217ac17b717b771e1501255ef3c6db7ead467a5b249a755c2",
+    "/data/chaoni/mjy/resym_exp/training_runs/seraph_task2/v0_3_8/SHA256SUMS": "78fc622e28c46895c95accced56a32710642456f1b0b17ee7ba988751fd93df0",
+    "/data/chaoni/mjy/resym_exp/training_runs/seraph_task2/v0_3_8/EXPERIMENT_PROTOCOL_FREEZE.json": "fc24b1af639abb13d27780bc0344b708543c9c24abe9fa9c10c8e97e0c849e15"
+  },
+  "scope": "Boundary metadata and three frozen-result files; not a full data-volume hash audit"
+}

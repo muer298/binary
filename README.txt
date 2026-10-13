@@ -41,7 +41,7 @@ data_tools            共享样本清单、语义输出统计和独立 DWARF 评
 
 部署和数据
 ----------
-统一源码目录拟部署至 /data/chaoni/mjy/binary。
+统一源码已部署至 /data/chaoni/mjy/binary。
 既有数据、模型、Ghidra、JDK 和结果仍位于 /data/chaoni/mjy/resym_exp
 及 /data/chaoni/mjy/DeepSeek-Coder-6.7B-Base 等原路径；它们不入 Git。
 算法内保留原实验绝对路径和冻结哈希，所以这不是脱离数据即可一键运行的包。
@@ -55,6 +55,9 @@ v038 明确依赖该目录中的冻结样本和清单。
 仅按经核实的清单迁移历史源代码；数据、模型、训练结果、封存 Gold 和
 Ghidra 运行目录禁止按版本号清理。历史代码先移出活动目录并保留可恢复归档。
 当前部署与清理事实请以 release/ 中的状态记录及交付消息为准。
+2026-10-13 已完成 129 个历史源码目标的可恢复迁移，约 875 MB。
+归档：/data/chaoni/mjy_code_archive_20261012；未执行永久删除。
+resym_exp/packages 和 resym_exp/scripts 已由兼容链接接入唯一源码树。
 
 验证边界
 --------

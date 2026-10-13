@@ -21,7 +21,11 @@
   "full_end_to_end_validation": false,
   "v038_report_status": "EXPANDED_LOCALIZATION_VALIDATION_COMPLETE",
   "v038_caveat": "NO_INDEPENDENT_SERAPH_VERIFICATION_GAIN; completion is not validation of the locator",
-  "cleanup_status": "PENDING_SOURCE_RECHECK_AND_PUBLICATION",
-  "algorithm_files_modified": false
-  ,"document_visual_qa": {"pages": 25, "all_pages_inspected": true, "status": "PASSED"}
+  "cleanup_status": "COMPLETE_RECOVERABLE_ARCHIVE",
+  "cleanup_targets": 129,
+  "cleanup_bytes_excluding_symlinks_and_pycache": 874812256,
+  "archive": "/data/chaoni/mjy_code_archive_20261012",
+  "permanent_deletion": false,
+  "algorithm_files_modified": false,
+  "document_visual_qa": {"pages": 25, "all_pages_inspected": true, "status": "PASSED"}
 }
